@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/3/trunk/Student%20Timetable/res/layout
+END
+addsubjects.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/10/trunk/Student%20Timetable/res/layout/addsubjects.xml
+END
+main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/4/trunk/Student%20Timetable/res/layout/main.xml
+END
+adddialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/13/trunk/Student%20Timetable/res/layout/adddialog.xml
+END
+daylist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/12/trunk/Student%20Timetable/res/layout/daylist.xml
+END
+subjectlist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/12/trunk/Student%20Timetable/res/layout/subjectlist.xml
+END
+addhour.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/13/trunk/Student%20Timetable/res/layout/addhour.xml
+END
+aboutdialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/13/trunk/Student%20Timetable/res/layout/aboutdialog.xml
+END
