@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounddark" >
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounddark"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/simpson" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="133dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:text="The simpsons"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#fff" />
+
+  <RatingBar
+        android:id="@+id/getRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1.0" />
+ 
+    <RatingBar
+        android:id="@+id/setRating"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/getRating"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:stepSize="0.1" />
+ 
+    <TextView
+        android:id="@+id/countText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/getRating"
+        android:textColor="#fff"
+       
+        android:paddingLeft="10dp" />
+    
+             
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.54"
+        android:padding="10dp"
+        android:text="THIS GAME IS LIFE-RUININGLY FUN! Homer accidently caused a meltdown that wiped out Springfield. D’OH! Now, it’s up to you to rebuild it! From the writers of The Simpsons, tap into a city building game that lets you create your own living, breathing Springfield... for FREE."
+        android:textColor="#fff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="102dp" >
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/simpson1" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="108dp"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:src="@drawable/simpson2" />
+
+                <ImageView
+                    android:id="@+id/ImageView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="108dp"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:src="@drawable/simpson3" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="fill_parent"
+        android:layout_height="164dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/simpsonschart2" />
+
+    <ImageView
+        android:id="@+id/ImageView02"
+        android:layout_width="fill_parent"
+        android:layout_height="164dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/simpsonschart1" />
+
+    <ImageButton
+        android:id="@+id/downloadButton"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:src="@drawable/download" />
+
+</LinearLayout>
+</ScrollView>

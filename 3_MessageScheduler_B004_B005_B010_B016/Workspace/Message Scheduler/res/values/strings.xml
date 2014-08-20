@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MESSAGE SCHEDULER</string>
+    <string name="action_settings">Queue</string>
+    <string name="hello_world">Timer Text</string>
+    <string name="when_to">Set When To Send:</string>
+    <string name="Who">To Who?</string>
+    <string name="Set">Send!</string>
+    <string name="autocompletetextview">AutoCompleteTextView</string>
+    <string name="enternum">Enter Phone Number</string>
+    <string name="entermsg">Enter Your Message</string>
+    <string name="abt_settings">About</string>
+    <string name="app_version">Version 0.97</string>
+    <string name="mrosenberger">http://MikeRosenberger.com/blog</string>
+    <string name="mrose">Developed by Michael Rosenberg</string>
+    <string name="obscure">Obscure Software</string>
+    <string name="Copyright">TimerText Copyright © 2013  Michael Rosenberg</string>
+    <string name="github">http://Github.com/Miker525</string>
+    <string name="srcs">TimerText is distributed under the GNU GPL license. The source code and APK are available for download via the GitHub listed above. Thank you very much for your downloads and donations. Look for updates and new apps in the future. Thank You! \n -Mike Rosenberg</string>
+    <string name="exit">Exit</string>
+    <string name="title_activity_splashscreen">Splashscreen</string>
+    <string name="title_activity_splash">Splash</string>
+
+</resources>

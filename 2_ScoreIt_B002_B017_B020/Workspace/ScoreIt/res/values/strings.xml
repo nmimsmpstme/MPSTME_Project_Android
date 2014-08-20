@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ScoreIt</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="welcome">Welcome!</string>
+    <string name="information">We help you to find the best apps of the lot from the infinitely large playstore.
+  View the Best, Rate, Download. ScoreIt. </string>
+        <string name="namehint">name</string>
+        <string name="emailhint">example@xyz.com</string>
+
+</resources>

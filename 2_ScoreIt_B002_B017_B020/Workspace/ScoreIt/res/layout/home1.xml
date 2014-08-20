@@ -1,0 +1,260 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+<LinearLayout 
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:ignore="DuplicateIds" >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:id="@+id/Games"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:background="@drawable/bluewhite"
+                        android:orientation="horizontal"
+                        android:padding="15dp" >
+
+                        <ImageButton
+                            android:id="@+id/imagebutton11"
+                            android:layout_width="92dp"
+                            android:layout_height="88dp"
+                            android:src="@drawable/office" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/textView1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingBottom="15dp"
+                                android:paddingLeft="15dp"
+                                android:paddingRight="15dp"
+                                android:text="Office Pro!"
+                                android:textColor="#0147FA"
+                                android:textSize="18sp"
+                                android:textStyle="bold|normal" />
+
+                            <TextView
+                                android:id="@+id/textView2"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="15dp"
+                                android:text="Work all you want on the phone itself"
+                                android:textColor="#0147FA" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:background="@drawable/bluewhite"
+                        android:orientation="horizontal"
+                        android:padding="15dp" >
+
+                        <ImageButton
+                            android:id="@+id/fifabutton1"
+                            android:layout_width="87dp"
+                            android:layout_height="83dp"
+                            android:src="@drawable/evernote" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/TextView02"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingBottom="15dp"
+                                android:paddingLeft="15dp"
+                                android:paddingRight="15dp"
+                                android:text="Evernote"
+                                android:textColor="#0147FA"
+                                android:textSize="18sp"
+                                android:textStyle="bold|normal" />
+
+                            <TextView
+                                android:id="@+id/TextView01"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="15dp"
+                                android:text="Best notes app ever made."
+                                android:textColor="#0147FA" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:background="@drawable/bluewhite"
+                        android:orientation="horizontal"
+                        android:padding="15dp" >
+
+                        <ImageButton
+                            android:id="@+id/realbutton1"
+                            android:layout_width="101dp"
+                            android:layout_height="85dp"
+                            android:src="@drawable/tune" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/TextView03"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingBottom="15dp"
+                                android:paddingLeft="15dp"
+                                android:paddingRight="15dp"
+                                android:text="TuneIn Radio"
+                                android:textColor="#0147FA"
+                                android:textSize="18sp"
+                                android:textStyle="bold|normal" />
+
+                            <TextView
+                                android:id="@+id/TextView04"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="15dp"
+                                android:text="Listen to any channel around the world"
+                                android:textColor="#0147FA" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    
+                     <LinearLayout
+                        android:id="@+id/LinearLayout2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:background="@drawable/bluewhite"
+                        android:orientation="horizontal"
+                        android:padding="15dp" >
+
+                        <ImageButton
+                            android:id="@+id/fifabutton"
+                            android:layout_width="87dp"
+                            android:layout_height="83dp"
+                            android:src="@drawable/snapchat" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/TextView02"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingBottom="15dp"
+                                android:paddingLeft="15dp"
+                                android:paddingRight="15dp"
+                                android:text="Snapchat"
+                                android:textColor="#0147FA"
+                                android:textSize="18sp"
+                                android:textStyle="bold|normal" />
+
+                            <TextView
+                                android:id="@+id/TextView01"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="15dp"
+                                android:text="Chat with pictures!!"
+                                android:textColor="#0147FA" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    
+                      <LinearLayout
+                        android:id="@+id/LinearLayout2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:background="@drawable/bluewhite"
+                        android:orientation="horizontal"
+                        android:padding="15dp" >
+
+                        <ImageButton
+                            android:id="@+id/fifabutton"
+                            android:layout_width="87dp"
+                            android:layout_height="83dp"
+                            android:src="@drawable/whatsapp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/TextView02"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingBottom="15dp"
+                                android:paddingLeft="15dp"
+                                android:paddingRight="15dp"
+                                android:text="Whatsapp"
+                                android:textColor="#0147FA"
+                                android:textSize="18sp"
+                                android:textStyle="bold|normal" />
+
+                            <TextView
+                                android:id="@+id/TextView01"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="15dp"
+                                android:text="Messaging app that connects world together"
+                                android:textColor="#0147FA" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    
+                    
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Utility"
+                    android:layout_width="match_parent"
+                    android:layout_height="511dp"
+                    android:orientation="vertical" >
+                </LinearLayout>
+                
+            </FrameLayout>
+        </LinearLayout>
+    
+
+</LinearLayout>
+</ScrollView>

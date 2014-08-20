@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounddark" >
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounddark"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/realracing" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:text="Real Racing"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="175dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:background="#00000000"
+                android:scaleType="fitXY"
+                android:src="@drawable/xxx" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.54"
+        android:padding="10dp"
+        android:text="Welcome to the most authentic racing game on the App Store. Feel the excitement of every turn, acceleration, and crash with new touch controls. Plus, live every moment of real-world football with EA SPORTS™ Racing Club Match!" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="102dp" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2.50"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/real1" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="157dp"
+            android:layout_height="match_parent"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/real2" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="fill_parent"
+        android:layout_height="202dp"
+        android:paddingTop="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/real" />
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.scoreit"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+ <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/scoreblack"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" android:logo="@drawable/scorered">
+      
+                
+            <activity
+            android:name="com.example.scoreit.MyActivity"
+            android:label="@string/app_name" 
+              >
+            
+        </activity>
+        
+         <activity
+            android:name="com.example.scoreit.splash2"
+            android:label="@string/app_name" 
+              >
+            
+        </activity>    
+            
+        <activity
+            android:name="com.example.scoreit.MainActivity"
+            android:label="@string/app_name" 
+              >
+          
+        </activity>  
+        
+        <activity
+            android:name="com.example.scoreit.PlayStore"
+            android:label="@string/app_name" 
+              >
+        </activity> 
+        
+         <activity
+            android:name="com.example.scoreit.real"
+            android:label="@string/app_name" 
+              >
+        </activity>
+        
+          <activity
+            android:name="com.example.scoreit.angry"
+            android:label="@string/app_name" 
+              >
+        </activity>
+        
+         <activity
+            android:name="com.example.scoreit.fifa"
+            android:label="@string/app_name" 
+              >
+        </activity>  
+        <activity
+            android:name="com.example.scoreit.office"
+            android:label="@string/app_name" 
+              >
+        </activity> 
+        <activity
+            android:name="com.example.scoreit.evernote"
+            android:label="@string/app_name" 
+              >
+        </activity> 
+         <activity
+            android:name="com.example.scoreit.tune"
+            android:label="@string/app_name" 
+              >
+        </activity> 
+        
+         <activity
+            android:name="com.example.scoreit.candy"
+            android:label="@string/app_name" 
+              >
+        </activity> 
+        
+         <activity
+            android:name="com.example.scoreit.simpsons"
+            android:label="@string/app_name" 
+              >
+        </activity> 
+        
+         <activity
+            android:name="com.example.scoreit.blend"
+            android:label="@string/app_name" 
+              >
+        </activity> 
+          <activity
+            android:name="com.example.scoreit.HomeActivity"
+            android:label="@string/app_name" >
+              
+        </activity>
+        
+          <activity
+            android:name="com.example.scoreit.MainSplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FirstScreen" ></activity>  
+        
+         <activity
+            android:name=".SignUPActivity"/>
+    </application>
+
+</manifest>

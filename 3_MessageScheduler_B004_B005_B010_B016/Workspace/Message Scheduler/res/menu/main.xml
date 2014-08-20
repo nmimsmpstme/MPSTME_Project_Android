@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/queuelist"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/abt"
+        android:orderInCategory="200"
+        android:title="@string/abt_settings"/>
+
+    <item
+        android:id="@+id/exit"
+        android:orderInCategory="300"
+        android:title="@string/exit"/>
+    
+</menu>
