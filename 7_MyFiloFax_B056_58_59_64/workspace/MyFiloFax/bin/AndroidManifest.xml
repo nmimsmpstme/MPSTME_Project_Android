@@ -1,0 +1,152 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myfilofax"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.myfilofax.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.myfilofax.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.myfilofax.RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:parentActivityName="com.example.myfilofax.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfilofax.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.myfilofax.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:parentActivityName="com.example.myfilofax.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfilofax.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.myfilofax.Share"
+            android:label="@string/title_activity_share"
+            android:parentActivityName="com.example.myfilofax.HomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfilofax.HomeActivity" />
+        </activity>
+        <activity
+            android:name="com.example.myfilofax.Upload"
+            android:label="@string/title_activity_upload"
+            android:parentActivityName="com.example.myfilofax.HomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfilofax.HomeActivity" />
+        </activity>
+        <activity
+            android:name="com.example.myfilofax.Tasks"
+            android:label="@string/title_activity_tasks"
+            android:parentActivityName="com.example.myfilofax.HomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfilofax.HomeActivity" />
+        </activity>
+
+        <activity
+            android:name="com.example.myfilofax.Exams"
+            android:label="@string/title_activity_exams"
+            android:parentActivityName="com.example.myfilofax.HomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfilofax.HomeActivity" />
+        </activity>
+        <activity
+            android:name="com.example.myfilofax.Requests"
+            android:label="@string/title_activity_requests"
+            android:parentActivityName="com.example.myfilofax.HomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfilofax.HomeActivity" />
+        </activity>
+        <activity
+            android:name="com.example.myfilofax.Newphoto"
+            android:label="@string/title_activity_newphoto"
+            android:parentActivityName="com.example.myfilofax.Upload" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfilofax.Upload" />
+        </activity>
+        <activity
+            android:name="com.example.myfilofax.Newtask"
+            android:label="@string/title_activity_newtask"
+            android:parentActivityName="com.example.myfilofax.Tasks" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfilofax.Tasks" />
+        </activity>
+        <activity
+            android:name="com.example.myfilofax.Deltask"
+            android:label="@string/title_activity_deltask"
+            android:parentActivityName="com.example.myfilofax.Tasks" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfilofax.Tasks" />
+        </activity>
+        <activity
+            android:name="com.example.myfilofax.Updatetask"
+            android:label="@string/title_activity_updatetask"
+            android:parentActivityName="com.example.myfilofax.Tasks" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfilofax.Tasks" />
+        </activity>
+        <activity
+            android:name="com.example.myfilofax.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.myfilofax.Ap"
+            android:label="@string/title_activity_ap"
+            android:parentActivityName="com.example.myfilofax.Upload" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfilofax.Upload" />
+        </activity>
+        <activity
+            android:name="com.example.myfilofax.EditActivity"
+            android:label="@string/title_activity_edit"
+            android:parentActivityName="com.example.myfilofax.Weekview" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfilofax.Weekview" />
+        </activity>
+        <activity android:name=".Weekview"
+            android:label="@string/title_activity_weekview"
+            >
+        </activity>
+    </application>
+        
+        
+        
+     
+</manifest>
+
+
+
+
+

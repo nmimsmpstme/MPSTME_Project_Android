@@ -1,0 +1,52 @@
+[	
+	{
+		"unavailable" :
+					   [
+							{
+								"ingredient" : "Vegetables"
+							},
+							
+							{
+								"ingredient" : "Wheat"
+							},
+							
+							{
+								"ingredient" : "Fish"
+							}
+					   ]
+	}, 	
+	
+	{
+		"name" : "Fried Rice",
+		"description" : "Steamed rice fried with Egg",
+		"rating" : "4",
+		"price" : "100",
+		"cooktime" : "20 mins",
+		"ingredients" : [
+							{"ingredient":"Rice"}
+						]
+	},
+	
+	{
+		"name" : "Hakka Noodles",
+		"description" : "Noodles fried with sauces & chicken",
+		"rating" : "3",
+		"price" : "100",
+		"cooktime" : "25 mins",
+		"ingredients" : [
+							{"ingredient":"Noodles"}
+						]
+	},
+	
+	{
+		"name" : "Lasagne",
+		"description" : "Several layers of lasagne",
+		"rating" : "4",
+		"price" : "250",
+		"cooktime" : "25 mins",
+		"ingredients" : [
+							{"ingredient":"Lasagne"}
+						]
+	}
+	
+]

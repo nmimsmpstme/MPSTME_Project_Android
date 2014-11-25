@@ -1,0 +1,52 @@
+[	
+	{
+		"unavailable" :
+					   [
+							{
+								"ingredient" : "Corn"
+							},
+							
+							{
+								"ingredient" : "Vegetables"
+							},
+							
+							{
+								"ingredient" : "Mutton"
+							}
+					   ]
+	}, 	
+	
+	{
+		"name" : "Paneer Tikka",
+		"description" : "Chunks of paneer marinated in spices",
+		"rating" : "4",
+		"price" : "100",
+		"cooktime" : "20 mins",
+		"ingredients" : [
+							{"ingredient":"Paneer"}
+						]
+	},
+	
+	{
+		"name" : "Pani Puri",
+		"description" : "Puris stuffed with potatoes, moong",
+		"rating" : "3",
+		"price" : "30",
+		"cooktime" : "5 mins",
+		"ingredients" : [
+							{"ingredient":"Puri"}
+						]
+	},
+	
+	{
+		"name" : "Fish Tikka",
+		"description" : "Fish fillets marinated with spices",
+		"rating" : "4",
+		"price" : "180",
+		"cooktime" : "25 mins",
+		"ingredients" : [
+							{"ingredient":"Fish"}
+						]
+	}
+	
+]

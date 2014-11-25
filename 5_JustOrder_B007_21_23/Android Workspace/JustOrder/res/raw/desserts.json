@@ -1,0 +1,52 @@
+[	
+	{
+		"unavailable" :
+					   [
+							{
+								"ingredient" : "Cream"
+							},
+							
+							{
+								"ingredient" : "Jamun"
+							},
+							
+							{
+								"ingredient" : "Caramel"
+							}
+					   ]
+	}, 	
+	
+	{
+		"name" : "Gulab Jamun",
+		"description" : "Gulab Jamun",
+		"rating" : "4",
+		"price" : "50",
+		"cooktime" : "10 mins",
+		"ingredients" : [
+                        {"ingredient":"Sweet Dumplings"}
+						]
+	},
+	
+	{
+		"name" : "Ice Cream",
+		"description" : "Chocolate Ice cream",
+		"rating" : "3",
+		"price" : "100",
+		"cooktime" : "5 mins",
+		"ingredients" : [
+                         {"ingredient":"Milk"}
+						]
+	},
+	
+	{
+		"name" : "Caramel Custard",
+		"description" : "Custard with a layer of caramel",
+		"rating" : "5",
+		"price" : "100",
+		"cooktime" : "5 mins",
+		"ingredients" : [
+                         {"ingredient":"Milk"}
+						]
+	}
+	
+]

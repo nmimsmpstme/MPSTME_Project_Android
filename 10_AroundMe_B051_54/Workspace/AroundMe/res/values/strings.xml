@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Around Me!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_emergency">Emergency</string>
+    <string name="title_activity_station">Stations</string>
+    <string name="title_activity_maps">Maps</string>
+    <string name="title_activity_stationmap">Stationmap</string>
+    <string name="title_activity_xmlparser">XMLParser</string>
+    <string name="title_activity_xmlmain">Find Places</string>
+    <string name="title_activity_map0">Welcome</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>

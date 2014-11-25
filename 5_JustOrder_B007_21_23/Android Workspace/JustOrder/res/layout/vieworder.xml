@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vi.justorder.VerticalScrollview xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/bg">
+
+<LinearLayout 
+    android:id="@+id/ALayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+<LinearLayout  android:layout_width="fill_parent" android:layout_height="50dp" android:id="@+id/LinearLayout01">
+	<TextView android:text="View Your Order" android:textColor="#FFFFFF" android:textSize="20dp" android:textStyle="bold" android:gravity="center" android:id="@+id/TextView01" android:layout_width="fill_parent" android:layout_height="fill_parent"></TextView>
+</LinearLayout>
+
+<LinearLayout android:orientation="horizontal"  android:layout_width="fill_parent" android:layout_height="50dp" android:id="@+id/LinearLayout02">
+
+	<TextView android:text="Name" android:paddingRight="50dp" android:textColor="#FFFFFF" android:textSize="16sp" android:id="@+id/TextView001" android:layout_width="wrap_content" android:layout_height="fill_parent"></TextView>
+	<TextView android:text="Quantity" android:paddingRight="50dp" android:paddingLeft="20dp" android:textColor="#FFFFFF" android:textSize="16sp" android:id="@+id/TextView003" android:layout_width="wrap_content" android:layout_height="fill_parent"></TextView>
+	<TextView android:text="Amount"  android:textColor="#FFFFFF" android:textSize="16sp" android:id="@+id/TextView003" android:layout_width="wrap_content" android:layout_height="fill_parent"></TextView>
+</LinearLayout>
+
+<LinearLayout android:layout_width="wrap_content" android:layout_height="160dp" android:id="@+id/LinearLayout03">
+<ListView android:id="@+id/ListView01" android:layout_width="wrap_content" android:layout_height="wrap_content"></ListView>
+</LinearLayout>
+
+
+
+
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/TextView02" android:text="" android:textSize="16sp" android:layout_marginTop="20dip"/>
+<Button  android:layout_height="wrap_content" android:text="Confirm Order" android:layout_width="wrap_content" android:id="@+id/Button06" android:layout_marginTop="15dip"></Button>
+</LinearLayout>
+</com.vi.justorder.VerticalScrollview>

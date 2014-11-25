@@ -1,0 +1,52 @@
+[	
+	{
+		"unavailable" :
+					   [
+							{
+								"ingredient" : "Corn"
+							},
+							
+							{
+								"ingredient" : "Apple"
+							},
+							
+							{
+								"ingredient" : "Mango"
+							}
+					   ]
+	}, 	
+	
+	{
+		"name" : "Mexican Salad",
+		"description" : "Fruit Salad With Basil Dressing",
+		"rating" : "5",
+		"price" : "90",
+		"cooktime" : "10 mins",
+		"ingredients" : [
+        {"ingredient":"Fruits"}
+						]
+	},
+	
+	{
+		"name" : "Italian Salad",
+		"description" : "Fruit And Lettuce Salad",
+		"rating" : "5",
+		"price" : "70",
+		"cooktime" : "5 mins",
+		"ingredients" : [
+         {"ingredient":"Fruits"}
+						]
+	},
+	
+	{
+		"name" : "French Salad",
+		"description" : "French Salad",
+		"rating" : "5",
+		"price" : "90",
+		"cooktime" : "5 mins",
+		"ingredients" : [
+        {"ingredient":"Lettuce"}
+						]
+	}
+	
+]

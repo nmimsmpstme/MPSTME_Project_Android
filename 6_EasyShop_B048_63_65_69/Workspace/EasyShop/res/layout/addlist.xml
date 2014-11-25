@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/listname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Enter Your List name:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/twenty" />
+
+    <EditText
+        android:id="@+id/liname"
+        style="@dimen/twentyfive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="@dimen/twentyfive" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/savelist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/namedisp"
+        android:text="Save a List" />
+
+</LinearLayout>

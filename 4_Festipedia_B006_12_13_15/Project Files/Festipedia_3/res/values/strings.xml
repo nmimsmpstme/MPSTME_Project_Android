@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Festipedia</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Open Navigation Drawer</string>
+    <string name="drawer_close">Close Navigation Drawer</string>
+	<string name="Fragment1">This is Fragment 1</string>
+    <string name="FragmentTab1">This is ViewPager Fragment Tab 1</string>
+    <string name="FragmentTab2">This is ViewPager Fragment Tab 2</string>
+</resources>

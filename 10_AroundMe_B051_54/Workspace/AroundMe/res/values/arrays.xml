@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "li">
+        <item >Andheri</item>
+        <item >Ambernath</item>
+        <item>BCT</item>      
+        <item>Bandra</item>
+        <item >Bhandup</item>
+        <item >Byculla</item>
+        <item >Cotton Green</item>
+        <item >Churchgate</item>
+        <item >Chembur</item>
+        <item >Dadar</item>
+        <item >Dombivali</item>
+        <item >Matunga</item>
+        <item>Marine lines</item> 
+        <item >Mahalaxmi</item>
+        <item >Sandhurst Road</item>
+        <item >Santacruz</item>
+        <item >Vikroli</item>
+            
+    </string-array>
+    
+</resources>

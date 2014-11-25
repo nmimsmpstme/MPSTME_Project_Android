@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ara.aroundme"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <permission
+        android:name="com.ara.googlemapsv2.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.ara.googlemapsv2.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- Required to show current location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- Required OpenGL ES 2.0. for Maps V2 -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/applogo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+         <activity
+            android:name="com.ara.aroundme.Splash"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+        </activity>
+        <activity
+            android:name="com.ara.aroundme.MainActivity"
+            android:label="@string/app_name" >
+           
+        </activity>
+        <activity
+            android:name="com.ara.aroundme.Emergency"
+            android:label="@string/title_activity_emergency" >
+        </activity>
+        <activity
+            android:name="com.ara.aroundme.Station"
+            android:label="@string/title_activity_station" >
+        </activity>
+        <activity
+            android:name="com.ara.aroundme.Maps"
+            android:label="@string/title_activity_maps" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <!-- Google Maps API Key -->
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAO9y2N6NN4t3ayAseH5Lw7garju_ncvzI" />
+
+        <activity
+            android:name="com.ara.aroundme.Stationmap"
+            android:label="@string/title_activity_stationmap" >
+        </activity>
+        <activity
+            android:name="com.ara.aroundme.XMLParser"
+            android:label="@string/title_activity_xmlparser" >
+        </activity>
+        <activity
+            android:name="com.ara.aroundme.Xmlmain"
+            android:label="@string/title_activity_xmlmain" >
+        </activity>
+        <activity
+            android:name="com.ara.aroundme.Map0"
+            android:label="@string/title_activity_map0" >
+        </activity>
+       
+    </application>
+
+</manifest>

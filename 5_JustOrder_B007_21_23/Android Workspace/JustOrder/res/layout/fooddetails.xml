@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg">
+<LinearLayout android:id="@+id/ALayout01" android:background="@drawable/bg" android:layout_width="fill_parent" android:orientation="vertical"
+
+android:layout_height="fill_parent">
+
+
+<LinearLayout  android:layout_width="200dp" android:layout_height="wrap_content" android:id="@+id/LinearLayout03"  android:gravity="top">
+<ImageView  android:layout_marginLeft="15dp"   android:id="@+id/ImageView02" 
+
+android:layout_width="fill_parent" android:layout_height="wrap_content"></ImageView>
+</LinearLayout>
+
+<LinearLayout android:orientation="vertical"  android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/LinearLayout04" >
+<TextView android:layout_marginLeft="15dp" android:layout_width="fill_parent" android:id="@+id/TextView01" android:layout_height="wrap_content" android:text="" android:textSize="16sp"></TextView>
+<TextView android:layout_marginLeft="15dp" android:layout_width="fill_parent" android:id="@+id/TextView02" android:layout_height="wrap_content" android:text="" android:textSize="16sp"></TextView>
+<TextView android:layout_marginLeft="15dp" android:layout_width="fill_parent" android:id="@+id/TextView03" android:layout_height="wrap_content" android:text="" android:textSize="16sp"></TextView>
+<TextView android:layout_marginLeft="15dp" android:layout_width="fill_parent" android:id="@+id/TextView04" android:layout_height="wrap_content" android:text="" android:textSize="16sp"></TextView>
+<TextView android:layout_marginLeft="15dp" android:layout_width="fill_parent" android:id="@+id/TextView05" android:layout_height="wrap_content" android:text="" android:textSize="16sp"></TextView>
+<TextView android:layout_marginLeft="15dp" android:layout_width="fill_parent" android:id="@+id/TextView06" android:layout_height="wrap_content" android:text="" android:textSize="16sp"></TextView>
+
+
+
+
+<EditText android:layout_marginLeft="15dp"  android:textSize="16sp" android:layout_width="80dp" android:layout_height="wrap_content" android:id="@+id/EditText01" android:text=""  android:numeric="integer"></EditText>
+<Button android:layout_marginLeft="15dp" android:textSize="16sp" android:layout_width="80dp" android:text="Add" android:layout_height="wrap_content" android:id="@+id/Button06"></Button>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+</LinearLayout>
+</ScrollView>

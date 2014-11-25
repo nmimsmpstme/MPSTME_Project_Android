@@ -1,0 +1,52 @@
+[	
+	{
+		"unavailable" :
+					   [
+							{
+								"ingredient" : "Milk"
+							},
+							
+							{
+								"ingredient" : "Syrup"
+							},
+							
+							{
+								"ingredient" : "Ice"
+							}
+					   ]
+	}, 	
+	
+	{
+		"name" : "Coke",
+		"description" : "Coca Cola",
+		"rating" : "4",
+		"price" : "50",
+		"cooktime" : "1 mins",
+		"ingredients" : [
+							{"ingredient":"Coke"}
+						]
+	},
+	
+	{
+		"name" : "Cold Coffee",
+		"description" : "Cold Coffee",
+		"rating" : "5",
+		"price" : "80",
+		"cooktime" : "10 mins",
+		"ingredients" : [
+							{"ingredient":"Coffee"}
+						]
+	},
+	
+	{
+		"name" : "Cappuccino",
+		"description" : "Italian coffee drink",
+		"rating" : "5",
+		"price" : "150",
+		"cooktime" : "10 mins",
+		"ingredients" : [
+							{"ingredient":"Espresso"}
+						]
+	}
+	
+]

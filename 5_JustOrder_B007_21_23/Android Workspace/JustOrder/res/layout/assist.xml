@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vi.justorder.VerticalScrollview xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/bg">
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg">
+
+    <ImageButton
+        android:id="@+id/help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="158dp"
+        android:background="@drawable/callwaiter"
+        android:text="Call Waiter">
+</ImageButton>
+</RelativeLayout>
+</com.vi.justorder.VerticalScrollview>

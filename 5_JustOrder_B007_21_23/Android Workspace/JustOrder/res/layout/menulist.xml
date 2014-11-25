@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vi.justorder.VerticalScrollview xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/bg">
+ 
+<LinearLayout android:background="@drawable/bg" android:id="@+id/ALayout01" android:layout_width="fill_parent" android:layout_height="fill_parent"  android:orientation="vertical">
+  
+<LinearLayout  android:layout_width="fill_parent" android:layout_height="50dp" android:id="@+id/LinearLayout01" >
+	<TextView android:text="Menu" android:textColor="#000" android:textStyle="bold" android:textSize="20dp" android:gravity="center" android:id="@+id/TextView01" android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+</LinearLayout> 
+<LinearLayout
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content" 
+android:id="@+id/LinearLayout04" 
+>
+
+<ListView 
+android:id="@+id/menu" 
+android:layout_width="wrap_content" 
+android:layout_height="200dip"
+android:divider="@android:color/transparent"
+android:dividerHeight="15dp" 
+>
+	
+   
+    
+</ListView>
+
+</LinearLayout>
+</LinearLayout>
+</com.vi.justorder.VerticalScrollview>

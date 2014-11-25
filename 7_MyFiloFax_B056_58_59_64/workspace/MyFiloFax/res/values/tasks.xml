@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "li">
+    <item name = "add">Add Task</item>
+    <item name = "del">Delete Task</item>
+    <item name = "upd">Update Task</item>   
+    </string-array>
+</resources>
