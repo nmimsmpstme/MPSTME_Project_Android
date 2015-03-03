@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:layout_gravity="center"
+    android:background="@drawable/bottom"
+    >
+
+    <Button
+        android:id="@+id/btnlevel1"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:textSize="0.01dp"
+        
+        android:gravity="center"
+        android:background="@drawable/basic"
+        android:text="Basics" />
+
+    <Button
+        android:id="@+id/btnlevel2"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:textSize="0.01dp"
+        android:background="@drawable/intermediate"
+        
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        
+        android:text="Intermediate" />
+
+    <Button
+        android:id="@+id/btnlevel3"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="0.01dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/advanced"
+        
+        android:gravity="center"
+        
+        android:text="Advanced" />
+
+    <Button
+        android:id="@+id/btnlevel4"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+		android:textSize="0.01dp"
+        android:gravity="center"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="10dp"
+		android:background="@drawable/quiz"
+        android:text="Quiz" />
+
+</LinearLayout>

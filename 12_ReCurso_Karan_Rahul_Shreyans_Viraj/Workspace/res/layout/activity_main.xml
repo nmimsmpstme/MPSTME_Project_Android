@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottom"
+    android:orientation="vertical"
+    tools:context=".MainActivity" 
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/txtv1"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:text="ReCurso"
+        android:textColor="#e50005"
+    android:layout_gravity="center"
+        android:textSize="50dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btn_str_1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/letslearn"
+        android:text="Lets Learn"
+        android:textSize="0.01dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_gravity="center"
+                 
+         />
+
+    <Button
+        android:id="@+id/btn_str_2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/letstranslate"
+        android:textSize="0.01dp"
+        android:text="Lets Translate"
+        android:layout_gravity="center"
+         />
+
+    <Button
+        android:id="@+id/btn_str_4"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/instructions"
+        android:textSize="0.01dp"
+        android:text="Instruction"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btn_str_3"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+      android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="0.01dp"
+        android:layout_gravity="center"
+        android:background="@drawable/settings"
+        android:layout_marginTop="1dp"
+        android:text="Settings" />
+
+    <Button
+        android:id="@+id/btn_str_5"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="35dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="1dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/exit"
+        android:text="Exit"
+        android:textSize="0.01dp" />
+
+</LinearLayout>

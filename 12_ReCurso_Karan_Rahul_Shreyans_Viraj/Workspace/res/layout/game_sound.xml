@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/game_sound_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/gamesou_textView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+        android:id="@+id/gamesou_textView2"
+        
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="2"
+        android:text="Large Text"
+        
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        
+        <Button
+            android:id="@+id/gamesou_button1"
+            style="?android:attr/buttonStyleSmall"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Normal" />
+
+        <Button
+            android:id="@+id/gamesou_button2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+        android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Slow" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/gamesou_editText1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:ems="10"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/gamesou_button3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Submit" />
+
+</LinearLayout>

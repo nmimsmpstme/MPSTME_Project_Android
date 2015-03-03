@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#123456">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:layout_margin="10dp"
+    android:layout_weight="4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        
+        
+        android:background="#123456">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:id="@+id/dmg_eng"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="English:"
+                android:layout_weight="1"
+                android:textColor="#ffff12"
+                
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/dmg_eng_word"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Medium Text"
+                android:textColor="#ffffff"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+			android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/dmg_lang"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Language:"
+                android:layout_weight="1"
+                android:textColor="#ffff12"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/dmg_lang_word"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Medium Text"
+                android:layout_weight="2"
+                android:textColor="#ffffff"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+        
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/dmg_sent"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="English Sentence:"
+                android:layout_weight="1"
+                android:textColor="#ffff12"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/dmg_sent_sent"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Medium Text"
+                android:layout_weight="2"
+                android:textColor="#ffffff"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/dmg_lang_sent"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Sentence:"
+                android:layout_weight="1"
+                android:textColor="#ffff12"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/dmg_lang_sent_sent"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Medium Text"
+                android:layout_weight="2"
+                android:textColor="#ffffff"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:background="#123423" >
+
+    <TextView
+        android:id="@+id/dmg_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="right"
+        android:text="Page"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+    
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#123423" >
+
+        <Button
+            android:id="@+id/dmg_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/prev"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/dmg_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/next"
+             />
+
+    </LinearLayout>
+
+</LinearLayout>

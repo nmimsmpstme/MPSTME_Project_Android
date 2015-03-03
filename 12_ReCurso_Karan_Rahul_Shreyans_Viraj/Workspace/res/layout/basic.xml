@@ -1,0 +1,86 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#010101" 
+    >
+
+    <LinearLayout
+        android:id="@+id/basic_ll1"
+        android:layout_width="match_parent"
+        android:layout_height="978dp"
+        
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50dp"
+        
+        android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/bsc_alphabet1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/alphabets"
+                android:textSize="0.01dp"
+                android:layout_gravity="center"
+                android:onClick="jump"
+                android:layout_marginTop="20dp"
+                android:text="Alphabets" />
+            
+            <Button
+                android:id="@+id/bsc_alphabet12"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/numbers"
+                android:textSize="0.01dp"
+                android:layout_gravity="center"
+                android:onClick="jump"
+                android:layout_marginTop="10dp"
+                android:text="Numbers" />
+            
+            <Button
+                android:id="@+id/bsc_alphabet6"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                
+                android:layout_gravity="center"
+                android:onClick="jump"
+                android:background="@drawable/days"
+                android:textSize="0.01dp"
+                
+                android:layout_marginTop="10dp"
+                android:text="Days" />
+            
+            <Button
+                android:id="@+id/bsc_alphabet2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:onClick="jump"
+                android:background="@drawable/months"
+                android:textSize="0.01dp"
+                
+                android:layout_marginTop="10dp"
+                android:text="Months" />
+            
+            
+
+			
+            
+    
+                 
+            
+                   <Button
+                android:id="@+id/invisible1"
+                android:layout_width="120dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:clickable="false"
+                android:visibility="invisible"
+                android:background="@drawable/colors"
+                android:textSize="0.01dp"
+                android:text="Colour" />
+        
+        </LinearLayout>
+
+
+</ScrollView>

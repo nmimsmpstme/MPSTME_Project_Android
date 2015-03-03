@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_words"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffF8"
+    android:fadingEdge="horizontal|vertical"
+    android:orientation="vertical" >
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        
+    <AutoCompleteTextView
+        android:id="@+id/traword_actv1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:layout_marginLeft="10dp"
+        android:layout_weight="4"
+        android:paddingLeft="6dp"
+        android:hint="Enter word to translate"
+        android:background="@drawable/textback"
+        android:layout_marginTop="100dp">
+        <requestFocus />
+        </AutoCompleteTextView>
+
+    <Spinner
+        android:id="@+id/traword_spinner1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_weight="2" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/traword_button1"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:text="Translate" 
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_yellow"/>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+            <TextView
+                android:id="@+id/traword_textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginLeft="10dp"
+                android:textSize="18dp"
+                
+                android:layout_marginTop="10dp"
+                android:layout_weight="8"
+                android:hint="translated word" />
+
+            <Button
+                android:id="@+id/traword_button2"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="25dp"
+                android:layout_height="50dp"
+                android:layout_weight="2"
+                android:text="Play1" 
+                android:layout_marginRight="10dp"
+                android:textSize="0.01dp"
+                android:background="@drawable/play1"/>
+        
+    </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/traword_textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:ems="10"
+                    android:layout_marginLeft="10dp"
+                    android:hint="tra_sentence"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/traword_button3"
+                    style="?android:attr/buttonStyleSmall"
+                	android:layout_width="25dp"
+                	android:layout_height="50dp"
+                	android:layout_weight="2"
+                    android:background="@drawable/play1"
+                    android:text="Play2" 
+                	
+                	android:layout_marginRight="10dp"
+                	android:textSize="0.01dp"
+                     />
+            </LinearLayout>
+            
+            
+                
+        
+            <TextView
+                android:id="@+id/traword_textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="18dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="8"
+                android:hint="eng_sentence" />
+            
+    
+</LinearLayout>

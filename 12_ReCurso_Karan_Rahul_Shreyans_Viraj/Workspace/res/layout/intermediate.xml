@@ -1,0 +1,108 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#101010" 
+    >
+
+                            
+        
+    <LinearLayout
+        android:id="@+id/basic_ll1"
+        android:layout_width="match_parent"
+        android:layout_height="562dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" 
+        android:layout_marginBottom="50dp">
+
+        
+             <Button
+                android:id="@+id/int_progress1"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+        		android:layout_gravity="right"
+                android:onClick="progress"
+                android:layout_marginBottom="40dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/progress"
+                android:textSize="0.01dp"
+                android:text="MyProgress" />
+        
+        
+			<Button
+                android:id="@+id/int_alphabet1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:onClick="jump"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/articles"
+                android:textSize="0.01dp"
+                
+                android:text="Articles" />
+                
+                 <Button
+                android:id="@+id/int_alphabet2"
+                android:layout_width="120dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:onClick="jump"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/people1"
+                android:textSize="0.01dp"
+                android:text="People1" />
+            
+            <Button
+                android:id="@+id/int_alphabet4"
+                android:layout_width="120dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:onClick="jump"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colors"
+                android:textSize="0.01dp"
+                android:text="Colour" />
+            
+                 <Button
+                android:id="@+id/int_alphabet5"
+                android:layout_width="120dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:onClick="jump"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/room"
+                android:textSize="0.01dp"
+                android:text="Room" />
+            
+            
+                 <Button
+                android:id="@+id/int_alphabet6"
+                android:layout_width="120dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:onClick="jump"
+                android:background="@drawable/animals"
+                android:textSize="0.01dp"
+                android:text="Animals" />
+            
+                   <Button
+                android:id="@+id/invisible2"
+                android:layout_width="120dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:clickable="false"
+                android:visibility="invisible"
+                android:background="@drawable/colors"
+                android:textSize="0.01dp"
+                android:text="Colour" />
+        
+        </LinearLayout>
+
+
+</ScrollView>

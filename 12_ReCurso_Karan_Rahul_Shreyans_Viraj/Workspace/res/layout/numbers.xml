@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/textView101"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numbers"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+             >
+
+	<Button
+        android:id="@+id/num_button1"
+		android:layout_width="130dp"
+		android:layout_height="130dp"
+		android:textSize="0.01dp"
+        />
+	
+	<Button
+        android:id="@+id/num_button2"
+         android:layout_width="130dp"
+         android:layout_marginLeft="20dp"
+         android:layout_height="130dp"
+		android:textSize="0.01dp"
+        />
+</LinearLayout>    
+
+                <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+             >
+
+	<TextView
+        android:id="@+id/num_tbutton1"
+		android:layout_width="110dp"
+		android:layout_height="30dp"
+		android:textSize="20dp"
+		android:gravity="center"
+        />
+	
+	<TextView
+        android:id="@+id/num_tbutton2"
+         android:layout_width="110dp"
+         android:layout_height="30dp"
+		android:textSize="20dp"
+		android:layout_marginLeft="20dp"
+		android:gravity="center"
+        />
+</LinearLayout>    
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+             >
+
+	<Button
+        android:id="@+id/num_button3"
+		android:layout_width="130dp"
+		android:layout_height="130dp"
+		android:textSize="0.01dp"
+        />
+	
+	<Button
+        android:id="@+id/num_button4"
+         android:layout_width="130dp"
+         android:layout_marginLeft="20dp"
+         android:layout_height="130dp"
+		android:textSize="0.01dp"
+        />
+</LinearLayout>    
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+             >
+
+	<TextView
+        android:id="@+id/num_tbutton3"
+		android:layout_width="110dp"
+		android:layout_height="30dp"
+		android:textSize="20dp"
+		android:gravity="center"
+        />
+	
+	<TextView
+        android:id="@+id/num_tbutton4"
+         android:layout_width="110dp"
+         android:layout_height="30dp"
+		android:textSize="20dp"
+		android:layout_marginLeft="20dp"
+		android:gravity="center"
+        />
+</LinearLayout>    
+    
+    
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+             >
+
+	<Button
+        android:id="@+id/num_button5"
+		android:layout_width="130dp"
+		android:layout_height="130dp"
+		android:textSize="0.01dp"
+        />
+	
+	<Button
+        android:id="@+id/num_button6"
+         android:layout_width="130dp"
+         android:layout_height="130dp"
+         android:layout_marginLeft="20dp"
+		android:textSize="0.01dp"
+        />
+</LinearLayout>    
+
+                <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+             >
+
+	<TextView
+        android:id="@+id/num_tbutton5"
+		android:layout_width="110dp"
+		android:layout_height="30dp"
+		android:textSize="20dp"
+		android:gravity="center"
+        />
+	
+	<TextView
+        android:id="@+id/num_tbutton6"
+         android:layout_width="110dp"
+         android:layout_height="30dp"
+		android:textSize="20dp"
+		android:layout_marginLeft="20dp"
+		android:gravity="center"
+        />
+</LinearLayout>    
+        
+        
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+             >
+
+	<Button
+        android:id="@+id/num_button7"
+		android:layout_width="130dp"
+		android:layout_height="130dp"
+		android:textSize="0.01dp"
+        />
+	
+	<Button
+        android:id="@+id/num_button8"
+         android:layout_width="130dp"
+         android:layout_height="130dp"
+         android:layout_marginLeft="20dp"
+		android:textSize="0.01dp"
+        />
+</LinearLayout>    
+
+                    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+             >
+
+	<TextView
+        android:id="@+id/num_tbutton7"
+		android:layout_width="110dp"
+		android:layout_height="30dp"
+		android:textSize="20dp"
+		android:gravity="center"
+        />
+	
+	<TextView
+        android:id="@+id/num_tbutton8"
+         android:layout_width="110dp"
+         android:layout_height="30dp"
+		android:textSize="20dp"
+		android:layout_marginLeft="20dp"
+		android:gravity="center"
+        />
+</LinearLayout>    
+            
+            
+                <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+             >
+
+	<Button
+        android:id="@+id/num_button9"
+		android:layout_width="130dp"
+		android:layout_height="130dp"
+		android:textSize="0.01dp"
+        />
+	
+	<Button
+        android:id="@+id/num_button10"
+         android:layout_width="130dp"
+         android:layout_height="130dp"
+         android:layout_marginLeft="20dp"
+		android:textSize="0.01dp"
+        />
+</LinearLayout>    
+            
+                <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+             >
+
+	<TextView
+        android:id="@+id/num_tbutton9"
+		android:layout_width="110dp"
+		android:layout_height="30dp"
+		android:textSize="20dp"
+		android:gravity="center"
+        />
+	
+	<TextView
+        android:id="@+id/num_tbutton10"
+         android:layout_width="110dp"
+         android:layout_height="30dp"
+		android:textSize="20dp"
+		android:layout_marginLeft="20dp"
+		android:gravity="center"
+        />
+</LinearLayout>    
+                
+    
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+             >
+
+	<Button
+        android:id="@+id/num_button11"
+		android:layout_width="130dp"
+		android:layout_height="130dp"
+		android:textSize="0.01dp"
+        />
+	
+	<Button
+        android:id="@+id/num_button12"
+         android:layout_width="130dp"
+         android:layout_height="130dp"
+         android:layout_marginLeft="20dp"
+		android:textSize="0.01dp"
+        />
+</LinearLayout>    
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+             >
+
+	<TextView
+        android:id="@+id/num_tbutton11"
+		android:layout_width="110dp"
+		android:layout_height="30dp"
+		android:textSize="20dp"
+		android:gravity="center"
+        />
+	
+	<TextView
+        android:id="@+id/num_tbutton12"
+         android:layout_width="110dp"
+         android:layout_height="30dp"
+		android:textSize="20dp"
+		android:layout_marginLeft="20dp"
+		android:gravity="center"
+        />
+</LinearLayout>    
+        
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+             >
+
+	<Button
+        android:id="@+id/num_button13"
+		android:layout_width="130dp"
+		android:layout_height="130dp"
+		android:textSize="0.01dp"
+        />
+	
+	<Button
+        android:id="@+id/num_button14"
+         android:layout_width="130dp"
+         android:layout_height="130dp"
+         android:layout_marginLeft="20dp"
+		android:textSize="0.01dp"
+        />
+</LinearLayout>    
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+             >
+
+	<TextView
+        android:id="@+id/num_tbutton13"
+		android:layout_width="110dp"
+		android:layout_height="30dp"
+		android:textSize="20dp"
+		android:gravity="center"
+        />
+	
+	<TextView
+        android:id="@+id/num_tbutton14"
+         android:layout_width="110dp"
+         android:layout_height="30dp"
+		android:textSize="20dp"
+		android:layout_marginLeft="20dp"
+		android:gravity="center"
+        />
+</LinearLayout>    
+    
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+             >
+
+	<Button
+        android:id="@+id/num_button15"
+		android:layout_width="130dp"
+		android:layout_height="130dp"
+		android:textSize="0.01dp"
+        />
+	
+	<Button
+        android:id="@+id/num_button16"
+         android:layout_width="130dp"
+         android:layout_height="130dp"
+         android:layout_marginLeft="20dp"
+		android:textSize="0.01dp"
+        />
+</LinearLayout>    
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+             >
+
+	<TextView
+        android:id="@+id/num_tbutton15"
+		android:layout_width="130dp"
+		android:layout_height="30dp"
+		android:textSize="20dp"
+		android:layout_marginLeft="20dp"
+		android:gravity="center"
+        />
+	
+	<TextView
+        android:id="@+id/num_tbutton16"
+         android:layout_width="130dp"
+         android:layout_height="30dp"
+         android:layout_marginLeft="20dp"
+		android:textSize="20dp"
+		android:gravity="center"
+        />
+</LinearLayout>    
+        
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+             >
+
+	<Button
+        android:id="@+id/num_button17"
+		android:layout_width="130dp"
+		android:layout_height="130dp"
+		android:textSize="0.01dp"
+        />
+	
+	<Button
+        android:id="@+id/num_button18"
+         android:layout_width="130dp"
+         android:layout_height="130dp"
+         android:layout_marginLeft="20dp"
+		android:textSize="0.01dp"
+        />
+</LinearLayout>    
+
+                       <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+             >
+
+	<TextView
+        android:id="@+id/num_tbutton17"
+		android:layout_width="130dp"
+		android:layout_height="30dp"
+		android:textSize="20dp"
+		android:gravity="center"
+        />
+	
+	<TextView
+        android:id="@+id/num_tbutton18"
+         android:layout_width="130dp"
+         android:layout_height="30dp"
+		android:textSize="20dp"
+		android:layout_marginLeft="20dp"
+		android:gravity="center"
+        />
+</LinearLayout>    
+            
+            
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+             >
+
+	<Button
+        android:id="@+id/num_button19"
+		android:layout_width="130dp"
+		android:layout_height="130dp"
+		android:textSize="0.01dp"
+        />
+	
+	<Button
+        android:id="@+id/num_button20"
+         android:layout_width="130dp"
+         android:layout_height="130dp"
+         android:layout_marginLeft="20dp"
+		android:textSize="0.01dp"
+        />
+
+</LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+             >
+
+	<TextView
+        android:id="@+id/num_tbutton19"
+		android:layout_width="130dp"
+		android:layout_height="30dp"
+		android:textSize="20dp"
+		android:gravity="center"
+        />
+	
+	<TextView
+        android:id="@+id/num_tbutton20"
+         android:layout_width="130dp"
+         android:layout_height="30dp"
+		android:textSize="20dp"
+		android:layout_marginLeft="20dp"
+		android:gravity="center"
+        />
+</LinearLayout>    
+    
+        <TextView
+        android:id="@+id/num_tbutton21"
+         android:layout_width="130dp"
+         android:layout_height="30dp"
+		android:textSize="20dp"
+		android:layout_marginLeft="20dp"
+		android:gravity="center"
+        />
+        
+
+
+</LinearLayout>
+</ScrollView>

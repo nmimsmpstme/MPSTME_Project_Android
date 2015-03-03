@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.recurso"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="16" />
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.INTERNET" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.recurso.MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" 
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+                     <service android:name=".Servicee"></service>
+        
+        
+        
+         <activity android:name=".Advanced"
+            android:screenOrientation="portrait"
+            android:launchMode="standard"></activity>
+    
+         <activity android:name=".Alphabets"
+            android:screenOrientation="portrait"
+            android:launchMode="standard"></activity>
+         
+         <activity android:name=".tabbed_pane"
+            android:screenOrientation="portrait"
+            android:launchMode="standard"></activity>
+         
+         
+         <activity android:name=".Game"
+            android:screenOrientation="portrait"
+            android:launchMode="standard"></activity>
+         
+         
+         <activity android:name=".Basics"
+            android:screenOrientation="portrait"
+            android:launchMode="standard"></activity>
+         
+         <activity android:name=".Intermediate"
+            android:screenOrientation="portrait"
+            android:launchMode="standard"></activity>
+    
+              <activity android:name=".level"
+            android:screenOrientation="portrait"
+            android:launchMode="standard"></activity>
+    
+         <activity android:name=".SecondPage"
+            android:screenOrientation="portrait"
+            android:launchMode="standard"></activity>
+         
+         <activity android:name=".Sentence"
+            android:screenOrientation="portrait"
+            android:launchMode="standard"></activity>
+         
+         <activity android:name=".Settings"
+            android:screenOrientation="portrait"
+            android:launchMode="standard"></activity>
+         
+         <activity android:name=".Translate"
+            android:screenOrientation="portrait"
+            android:launchMode="standard"></activity>
+         
+         <activity android:name=".Words"
+            android:screenOrientation="portrait"
+            android:launchMode="standard"></activity>
+         
+         <activity android:name=".Instructions"
+            android:screenOrientation="portrait"
+            android:launchMode="standard"></activity>
+         
+         <activity android:name=".dispmeaning"
+            android:screenOrientation="portrait"
+            android:launchMode="standard"></activity>
+         
+         <activity android:name=".months"
+            android:screenOrientation="portrait"
+            android:launchMode="standard"></activity>
+         
+          <activity android:name=".Days"
+            android:screenOrientation="portrait"
+            android:launchMode="standard"></activity>
+         
+          <activity android:name=".Numbers"
+            android:screenOrientation="portrait"
+            android:launchMode="standard"></activity>
+        
+            <activity android:name=".AdvGame"
+            android:screenOrientation="portrait"
+            android:launchMode="standard"></activity>
+        
+            <activity android:name=".Conversation"
+            android:screenOrientation="portrait"
+            android:launchMode="standard"></activity>
+        
+           <activity android:name=".Test"
+            android:screenOrientation="portrait"
+            android:launchMode="standard"></activity>
+        
+            
+    </application>
+
+</manifest>

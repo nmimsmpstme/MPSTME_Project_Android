@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bottom">
+
+    <Button
+        android:id="@+id/tra_button1"
+        android:layout_marginTop="100dp"
+        android:layout_width="240dp"
+        android:layout_height="80dp"
+        android:textSize="0.01dp"
+        android:layout_gravity="center"
+        android:background="@drawable/words"
+        android:text="Words" />
+
+    <Button
+        android:id="@+id/tra_button2"
+        android:layout_width="240dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="0.01dp"
+        android:background="@drawable/sentences"
+        android:text="Sentence" />
+
+</LinearLayout>

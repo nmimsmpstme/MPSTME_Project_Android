@@ -1,0 +1,102 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#010101" 
+    >
+
+    <LinearLayout
+        android:id="@+id/basic_ll1"
+        android:layout_width="match_parent"
+        android:layout_height="562dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical" 
+        android:layout_marginBottom="50dp">
+        
+          <Button
+                android:id="@+id/adv_progress1"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+        		android:layout_gravity="right"
+                android:onClick="progresss"
+                android:layout_marginBottom="40dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/progress"
+                android:textSize="0.01dp"
+                android:text="MyProgress" />
+        
+        
+
+            <Button
+                android:id="@+id/adv_pronouns"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                
+                android:layout_gravity="center"
+                android:onClick="jumpjump"
+                android:background="@drawable/pronouns"
+                android:textSize="0.01dp"
+                android:layout_marginTop="20dp"
+                android:text="Pro"/>
+            
+            <Button
+                android:id="@+id/adv_politics"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:onClick="jump"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/politics"
+                android:textSize="0.01dp"
+                android:text="Politics" />
+        
+            <Button
+                android:id="@+id/adv_feelings"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:onClick="jump"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/feelings"
+                android:textSize="0.01dp"
+                android:text="Feelings" />
+            
+            <Button
+                android:id="@+id/adv_professions"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:onClick="jump"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/profession"
+                android:textSize="0.01dp"
+                android:text="Professions" />
+        
+            <Button
+                android:id="@+id/adv_conv1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:onClick="jump"
+                android:layout_marginTop="10dp"
+                android:textSize="0.01dp"
+                android:background="@drawable/conversation"
+                android:text="conversation1" />
+            
+            
+                       <Button
+                android:id="@+id/adv_invisible2"
+                android:layout_width="120dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:clickable="false"
+                android:visibility="invisible"
+                android:background="@drawable/colors"
+                android:textSize="0.01dp"
+                android:text="Colour" />
+        
+            
+        </LinearLayout>
+
+
+</ScrollView>
