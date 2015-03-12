@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.voice"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.voice.MainnewActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".App2Activity" >           </activity>
+             <activity
+            android:name=".menu"    >        </activity>
+               <activity 
+            android:name=".numbers">
+            </activity>
+             <activity
+            android:name=".letters" >  </activity>
+             <activity
+            android:name=".colours"  >          </activity>
+             
+             <activity android:name=".QuizActivity"  >
+        </activity>
+        <activity
+            android:name=".ResultActivity"       >
+        </activity>
+        <activity
+            android:name=".games"       >
+        </activity>
+        <activity
+            android:name=".dict"       >
+        </activity>
+        <activity
+            android:name=".ExpandableListAdapter"       >
+        </activity>
+        <activity
+            android:name=".ColorActivity"       >
+        </activity>
+         <activity
+            android:name=".letteractivity"       >
+        </activity>
+         <activity
+            android:name=".image"       >
+        </activity>
+         <activity
+            android:name=".second"       >
+        </activity>
+         <activity
+            android:name=".third"       >
+        </activity>
+         <activity
+            android:name=".fourth"       >
+        </activity>
+         <activity
+            android:name=".fifth"       >
+        </activity>
+         <activity
+            android:name=".videoone"       >
+        </activity>
+         <activity
+            android:name=".videotwo"       >
+        </activity>
+         <activity
+            android:name=".videothree"       >
+        </activity>
+         <activity
+            android:name=".videodict"       >
+        </activity>
+         <activity
+            android:name=".dictmenu"       >
+        </activity>
+    </application>
+
+
+</manifest>

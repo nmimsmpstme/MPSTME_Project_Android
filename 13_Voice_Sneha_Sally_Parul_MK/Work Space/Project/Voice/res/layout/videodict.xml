@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background">
+
+    <Button
+        android:id="@+id/vidone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:background="@drawable/alphanumeric" 
+        android:onClick="swapto14"/>
+ 
+
+    <Button
+        android:id="@+id/vidtwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/alphab" 
+        android:onClick="swapto15"
+        />
+    <Button
+        android:id="@+id/vidthree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/wordsongs" 
+        android:onClick="swapto16"
+        />
+         <TextView
+        android:id="@+id/videothree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+        android:text="Click to Play"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:width="@dimen/activity_horizontal_margin" 
+         />
+
+</LinearLayout>

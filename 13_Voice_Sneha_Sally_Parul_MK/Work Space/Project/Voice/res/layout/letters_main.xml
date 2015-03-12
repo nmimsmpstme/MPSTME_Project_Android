@@ -1,0 +1,281 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="798dp"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="20dp" 
+        android:id="@+id/Ba"
+        android:background="#448749"
+        />
+
+    <Button
+        android:id="@+id/Bb"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="B"
+        android:textSize="20dp" 
+        android:background="#448749"
+       />
+
+    <Button
+        android:id="@+id/Bc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="C"
+        android:textSize="20dp"
+        android:background="#448749"
+         />
+
+<Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="D"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="20dp" 
+        android:id="@+id/Bd"
+        android:background="#448749"
+        />
+<Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="E"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="20dp" 
+        android:id="@+id/Be"
+        android:background="#448749"
+        />
+<Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="F"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="20dp" 
+        android:id="@+id/Bf"
+        android:background="#448749"
+        />
+<Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="G"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="20dp" 
+        android:id="@+id/Bg"
+        android:background="#448749"
+        />
+<Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="H"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="20dp" 
+        android:id="@+id/Bh"
+        android:background="#448749"
+        />
+<Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="I"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="20dp" 
+        android:id="@+id/Bi"
+        android:background="#448749"
+        />
+<Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="J"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="20dp" 
+        android:id="@+id/Bj"
+        android:background="#448749"
+        />
+<Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="K"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="20dp" 
+        android:id="@+id/Bk"
+        android:background="#448749"
+        />
+<Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="L"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="20dp" 
+        android:id="@+id/Bl"
+        android:background="#448749"
+        />
+
+
+<Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="M"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="20dp" 
+        android:id="@+id/Bm"
+        android:background="#448749"
+        />
+<Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="N"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="20dp" 
+        android:id="@+id/Bn"
+        android:background="#448749"
+        />
+<Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="O"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="20dp" 
+        android:id="@+id/Bo"
+        android:background="#448749"
+        />
+<Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="P"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="20dp" 
+        android:id="@+id/Bp"
+        android:background="#448749"
+        />
+<Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Q"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="20dp" 
+        android:id="@+id/Bq"
+        android:background="#448749"
+        />
+<Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="R"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="20dp" 
+        android:id="@+id/Br"
+        android:background="#448749"
+        />
+<Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="S"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="20dp" 
+        android:id="@+id/Bs"
+        android:background="#448749"
+        />
+<Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="T"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="20dp" 
+        android:id="@+id/Bt"
+        android:background="#448749"
+        />
+<Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="U"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="20dp" 
+        android:id="@+id/Bu"
+        android:background="#448749"
+        />
+<Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="V"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="20dp" 
+        android:id="@+id/Bv"
+        android:background="#448749"
+        />
+<Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="W"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="20dp" 
+        android:id="@+id/Bw"
+        android:background="#448749"
+        />
+<Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="20dp" 
+        android:id="@+id/Bx"
+        android:background="#448749"
+        />
+<Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Y"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="20dp" 
+        android:id="@+id/By"
+        android:background="#448749"
+        />
+<Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Z"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="20dp" 
+        android:id="@+id/Bz"
+        android:background="#448749"
+        />
+
+
+</LinearLayout>
+</ScrollView>
