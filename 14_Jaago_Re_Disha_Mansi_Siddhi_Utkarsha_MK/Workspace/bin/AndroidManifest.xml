@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alarm"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon1"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <service
+            android:name="com.example.alarm.MyService"
+            android:enabled="true" />
+        <service
+            android:name="com.example.alarm.MyAlarm"
+            android:enabled="true" />
+
+        <activity
+            android:name="com.example.alarm.Activity_Buzzer"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.alarm.Squares"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.alarm.Matheq"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.alarm.AlarmMainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="com.example.alarm.MyReceiver" >
+        </receiver>
+
+        <activity
+            android:name="com.example.alarm.Game"
+            android:label="@string/title_activity_game" >
+        </activity>
+        <activity
+            android:name="com.example.alarm.Main"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.example.alarm.Differences"
+            android:label="@string/title_activity_differences" >
+        </activity>
+        <activity
+            android:name="com.example.alarm.Diff"
+            android:label="@string/title_activity_diff" >
+        </activity>
+        <activity
+            android:name="com.example.alarm.CaptchaMainActivity"
+            android:label="@string/title_activity_captcha_main" >
+        </activity>
+        <activity
+            android:name="com.example.alarm.Captcha"
+            android:label="@string/title_activity_captcha" >
+        </activity>
+    </application>
+
+</manifest>

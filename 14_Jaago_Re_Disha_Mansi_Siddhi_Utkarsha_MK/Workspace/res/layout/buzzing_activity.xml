@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background_Buzzer" >
+
+    
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/btnStyleBeige"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Button01"
+        android:layout_alignBottom="@+id/Button01"
+        android:layout_marginRight="58dp"
+        android:layout_toLeftOf="@+id/Button01"
+        android:onClick="stop"
+        android:text="Stop alarm" />
+
+    <AnalogClock
+        android:id="@+id/analogClock1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+    <Button
+        android:id="@+id/Button01"
+        style="@style/btnStyleBeige"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/analogClock1"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="60dp"
+        android:onClick="snooze"
+        android:text="Snooze" />
+
+</RelativeLayout>
