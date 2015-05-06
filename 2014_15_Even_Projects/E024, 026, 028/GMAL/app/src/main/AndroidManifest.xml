@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shreyalgelani.gmal" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GMAL_LOGIN"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.shreyalgelani.gmal.GMAL_LOGIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HOD"
+            android:label="@string/title_activity_hod" >
+        </activity>
+        <activity
+            android:name=".form1"
+            android:label="@string/title_activity_form1" >
+        </activity>
+        <activity
+            android:name=".Inbox"
+            android:label="@string/title_activity_inbox" >
+        </activity>
+        <activity
+            android:name=".Faculty_inboxview"
+            android:label="@string/title_activity_faculty_inboxview" >
+        </activity>
+        <activity
+            android:name=".Fac_inbox"
+            android:label="@string/title_activity_fac_inbox" >
+        </activity>
+        <activity
+            android:name=".Dean_form"
+            android:label="@string/title_activity_dean_form" >
+        </activity>
+        <activity
+            android:name=".Dean_inbox"
+            android:label="@string/title_activity_dean_inbox" >
+        </activity>
+        <activity
+            android:name=".hr"
+            android:label="@string/title_activity_hr" >
+        </activity>
+        <activity
+            android:name=".hrform"
+            android:label="@string/title_activity_hrform" >
+        </activity>
+        <activity
+            android:name=".hodleave"
+            android:label="@string/title_activity_hodleave" >
+        </activity>
+    </application>
+
+</manifest>

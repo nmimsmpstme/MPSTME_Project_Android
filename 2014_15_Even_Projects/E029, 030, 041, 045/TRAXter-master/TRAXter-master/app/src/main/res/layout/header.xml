@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/header_bg100" android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/listButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list64" android:layout_weight="1.0" android:contentDescription="@string/list" />
+    <ImageView android:id="@id/separator" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/separator" android:scaleType="fitXY" android:contentDescription="Separator" />
+    <ImageView android:layout_gravity="center" android:id="@id/logoButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/logo128" android:layout_weight="1.0" android:contentDescription="@string/logo" />
+    <ImageView android:id="@id/separator" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/separator" android:scaleType="fitXY" />
+    <ImageView android:layout_gravity="center" android:id="@id/settingsButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/settings48" android:layout_weight="1.0" android:contentDescription="@string/settings" />
+</LinearLayout>

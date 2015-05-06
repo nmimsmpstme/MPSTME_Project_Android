@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:compat="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.iot.classify.class_level_notifications">
+
+    <item android:id="@+id/button" android:title="Drawer" android:icon="@drawable/ic_drawer" android:orderInCategory="100" compat:showAsAction="always"></item>
+</menu>

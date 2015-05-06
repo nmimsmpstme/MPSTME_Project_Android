@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:gravity="center"
+        android:text="Select one of the options"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/send"
+        style="@style/button_text"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/red_style"
+        android:text="Send location"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/createev"
+        style="@style/button_text"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/red_style"
+        android:textColor="#ffffff"
+        android:layout_above="@+id/send"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="Event" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:id="@+id/textView1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_marginBottom="46dp" />
+</RelativeLayout>

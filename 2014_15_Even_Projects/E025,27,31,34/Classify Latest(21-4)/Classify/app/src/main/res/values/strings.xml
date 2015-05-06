@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Classify</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_class_level_notifications">class_level_notifications</string>
+    <string name="title_activity_add_class_notification">add_class_notification</string>
+    <string name="title_activity_log_in">log_in</string>
+    <string name="title_activity_select_action">select_action</string>
+    <string name="title_activity_events_notifications">events_notifications</string>
+    <string name="title_activity_institute_notifications">institute_notifications</string>
+    <string name="title_activity_request_tab">request_tab</string>
+    <string name="title_activity_add_event_notification">add_event_notification</string>
+    <string name="title_activity_add_institute_notification">add_institute_notification</string>
+    <string name="title_activity_add_request">add_request</string>
+    <string name="title_activity_rem_request">rem_request</string>
+    <string name="title_activity_template">Template</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+</resources>

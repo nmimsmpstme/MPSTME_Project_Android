@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/filterlist" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ListView android:id="@*android:id/list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.64" />
+    <LinearLayout android:gravity="center" android:id="@id/relativeLayoutPlaylist" android:background="@drawable/header_bg100" android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <ImageView android:id="@id/dirButton" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/dir48" android:scaleType="fitCenter" android:layout_weight="1.0" />
+        <ImageView android:id="@id/separator" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/separator" android:scaleType="fitXY" />
+        <ImageView android:id="@id/genreButton" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/genre48" android:scaleType="fitCenter" android:layout_weight="1.0" />
+        <ImageView android:id="@id/separator" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/separator" android:scaleType="fitXY" />
+        <ImageView android:id="@id/artistButton" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/artist48" android:scaleType="fitCenter" android:layout_weight="1.0" />
+        <ImageView android:id="@id/separator" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/separator" android:scaleType="fitXY" />
+        <ImageView android:id="@id/albumButton" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/album48" android:scaleType="fitCenter" android:layout_weight="1.0" />
+        <ImageView android:id="@id/separator" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/separator" android:scaleType="fitXY" />
+        <ImageView android:id="@id/trackButton" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/track48" android:scaleType="fitCenter" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

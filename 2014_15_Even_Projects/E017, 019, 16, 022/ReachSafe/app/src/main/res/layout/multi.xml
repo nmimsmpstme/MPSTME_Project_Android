@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    Button
+        android:id="@+id/editevmul"
+        style="@style/button_text"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/red_style"
+        android:text="Edit a event"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/selectmul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="109dp"
+        android:text="Select one of the options "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/delevmul"
+        style="@style/button_text"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/red_style"
+        android:text="Delete a event"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/createevmul"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/createevmul"
+        style="@style/button_text"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/red_style"
+        android:text="Create a event"
+        android:textColor="#ffffff"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

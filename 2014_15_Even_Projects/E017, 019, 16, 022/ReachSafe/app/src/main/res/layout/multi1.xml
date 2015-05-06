@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:gravity="center"
+        android:text="To create a event enter the number of people and set the range for them"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/promul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="31dp"
+        android:background="@drawable/red_style"
+        android:text="Proceed"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/etrange"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter the range"
+        android:inputType="number"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/promul"
+        android:layout_toStartOf="@+id/promul" />
+
+    <EditText
+        android:id="@+id/etnum"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/noofpeople"
+        android:layout_alignBottom="@+id/noofpeople"
+        android:layout_alignLeft="@+id/etrange"
+        android:ems="10"
+        android:hint="Enter the number"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/noofpeople"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="105dp"
+        android:text="No of people" />
+
+    <TextView
+        android:id="@+id/Range"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etrange"
+        android:layout_alignBottom="@+id/etrange"
+        android:layout_alignLeft="@+id/noofpeople"
+        android:text="Range" />
+
+</RelativeLayout>

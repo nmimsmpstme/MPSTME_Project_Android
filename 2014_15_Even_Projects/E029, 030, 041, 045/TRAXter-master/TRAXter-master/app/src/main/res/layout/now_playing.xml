@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/relativeLayoutNow" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/relativeLayout_curr_playing" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0">
+        <RelativeLayout android:id="@id/relativeLayout_albumArt" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:id="@id/albumArt" layout="@layout/album_art" />
+            <include android:id="@id/albumArtRight" android:visibility="invisible" layout="@layout/album_art" />
+            <include android:id="@id/albumArtLeft" android:visibility="invisible" layout="@layout/album_art" />
+        </RelativeLayout>
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/trackDuration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:layout_marginBottom="8.0dip" android:text="@string/durationInitialValue" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/trackPostionSeparator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/trackPostionSeparator" android:layout_toLeftOf="@id/trackDuration" android:layout_alignBaseline="@id/trackDuration" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/trackCurrPostion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/currPositionInitialValue" android:layout_toLeftOf="@id/trackPostionSeparator" android:layout_alignBaseline="@id/trackDuration" />
+        <include android:id="@id/menuBows" layout="@layout/bow_menu" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/relativeLayout_now_buttons" android:layout_width="fill_parent" android:layout_height="84.0dip" android:layout_marginTop="-5.0dip">
+        <RelativeLayout android:gravity="center_vertical" android:background="@drawable/header_bg100" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentBottom="true">
+            <ImageView android:id="@id/playButton" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/play96" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" android:contentDescription="@string/play" />
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+                <ImageView android:id="@id/separator" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/separator" android:scaleType="fitXY" />
+                <ImageView android:id="@id/backButton" android:paddingLeft="18.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/back48" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" android:contentDescription="@string/back" />
+                <ImageView android:id="@id/shuffleButton" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/dice48" android:layout_toLeftOf="@id/playButton" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" android:contentDescription="@string/back" />
+                <ImageView android:id="@id/nextButton" android:paddingLeft="12.0dip" android:paddingRight="18.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/next48" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:contentDescription="@string/next" />
+            </LinearLayout>
+        </RelativeLayout>
+        <SeekBar android:id="@id/progressBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:progressDrawable="@drawable/progress_bar_full" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+</LinearLayout>

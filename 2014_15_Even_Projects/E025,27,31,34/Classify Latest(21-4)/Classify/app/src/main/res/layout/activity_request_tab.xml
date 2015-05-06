@@ -1,0 +1,100 @@
+<com.iot.classify.FlyOutContainer xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#095578"
+        android:orientation="vertical"
+        android:id="@+id/Selection">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#095578"
+            android:textColor="#FFFFFF"
+            android:onClick="gotoclassnotifications"
+            android:text="Class Notifications"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#095578"
+            android:textColor="#FFFFFF"
+            android:onClick="gotoeventnotifications"
+            android:text="Event Notifications"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#095578"
+            android:textColor="#FFFFFF"
+            android:onClick="gotoinstitutenotifications"
+            android:text="Institute Notifications"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#095578"
+            android:textColor="#FFFFFF"
+            android:onClick="gotorequesttab"
+            android:text="Tuition Requests"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="16sp"
+        android:paddingRight="16sp"
+        android:paddingTop="16sp"
+        android:paddingBottom="16sp"
+        tools:context="com.iot.classify.signin.upcoming_activity"
+        android:background="#ffffffff">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+        </ScrollView>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:text="Add Request"
+            android:id="@+id/addreq"
+            android:layout_marginBottom="25sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignEnd="@+id/scrollView"
+            android:onClick="addrequest"
+            android:background="#ff095578"
+            android:shadowColor="#ffffffff"
+            android:textColor="#ffffffff" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:text="Accept Request"
+            android:id="@+id/accreq"
+            android:onClick="remrequest"
+            android:layout_alignTop="@+id/addreq"
+            android:layout_alignParentStart="true"
+            android:background="#095578"
+            android:textColor="#ffffffff" />
+    </RelativeLayout>
+
+</com.iot.classify.FlyOutContainer>
+

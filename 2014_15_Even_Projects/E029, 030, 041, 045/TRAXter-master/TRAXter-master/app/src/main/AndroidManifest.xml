@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.K2CDv1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="10" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> 
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="TRAXter"
+        android:name="com.K2CD.TRAXter" >
+        <activity
+            android:name="com.K2CD.Player"
+            android:label="TRAXter"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            	android:name="com.K2CD.dirchooser.DirChooser"
+                android:label="@string/dirchooser_label"
+                android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="com.TRAXter.player.DIR_CHOOSER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+		</activity>
+   		<service android:name="com.K2CD.player.PlayerService" />
+    </application>
+
+</manifest>

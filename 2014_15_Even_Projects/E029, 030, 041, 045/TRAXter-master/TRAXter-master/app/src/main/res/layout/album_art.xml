@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="-7.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/picture" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/blank_album_art" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:contentDescription="@string/album_art" />
+    <LinearLayout android:orientation="vertical" android:id="@id/linearLayout1" android:background="#75000000" android:paddingTop="5.0dip" android:paddingBottom="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/trackTitle" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/trackInitialValue" android:singleLine="true" />
+        <View android:background="#5033ff33" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_margin="5.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/artistLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip">
+            <ImageView android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/artist24" android:scaleType="fitCenter" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/trackArtist" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="15.0dip" android:text="@string/artistInitialValue" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/artistLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip">
+            <ImageView android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/album24" android:scaleType="fitCenter" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/trackAlbum" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="90.0dip" android:text="@string/albumInitialValue" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

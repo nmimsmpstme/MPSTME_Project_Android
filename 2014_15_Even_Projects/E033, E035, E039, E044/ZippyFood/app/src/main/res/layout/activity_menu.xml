@@ -1,0 +1,137 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="16sp"
+    android:fillViewport="true"
+    android:paddingRight="16sp"
+    android:paddingTop="16sp"
+    android:paddingBottom="16sp"
+    tools:context="com.example.samarth.food.menu"
+    android:background="@drawable/image2">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="MENU"
+        android:id="@+id/textView143"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        style="@style/Base.TextAppearance.AppCompat.Display3"
+        android:textColor="#ff000000"
+        android:textStyle="bold|italic"
+        android:textSize="60sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DRINKS"
+        android:id="@+id/button5"
+        android:layout_below="@+id/textView143"
+        android:layout_marginTop="63sp"
+        style="@style/Base.TextAppearance.AppCompat.Display1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:clickable="true"
+        android:background="#66ffff1d"
+        android:textColor="#ff000000" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STARTERS"
+        android:id="@+id/button6"
+        style="@style/Base.TextAppearance.AppCompat.Display1"
+        android:clickable="true"
+        android:layout_marginTop="49dp"
+        android:layout_below="@+id/button5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ff000000"
+        android:background="#66ffff1d" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAIN COURSE"
+        android:id="@+id/button7"
+        android:layout_below="@+id/button6"
+        android:layout_marginTop="40sp"
+        android:layout_alignRight="@+id/button5"
+        android:layout_alignEnd="@+id/button5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        style="@style/Base.TextAppearance.AppCompat.Display1"
+        android:textColor="#ff000000"
+        android:background="#66ffff1d" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RICE AND BIRYANI"
+            android:id="@+id/button70"
+            android:layout_below="@+id/button7"
+            android:layout_marginTop="40sp"
+            android:layout_alignRight="@+id/button7"
+            android:layout_alignEnd="@+id/button7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            style="@style/Base.TextAppearance.AppCompat.Display1"
+            android:textColor="#ff000000"
+            android:background="#66ffff1d" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SALADS AND CURD"
+            android:id="@+id/button87"
+            android:layout_below="@+id/button80"
+            android:layout_marginTop="40sp"
+            android:layout_alignRight="@+id/button5"
+            android:layout_alignEnd="@+id/button5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+
+            style="@style/Base.TextAppearance.AppCompat.Display1"
+            android:textColor="#ff000000"
+            android:background="#66ffff1d" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BREADS"
+            android:id="@+id/button80"
+            android:layout_below="@+id/button70"
+            android:layout_marginTop="40sp"
+            android:layout_alignRight="@+id/button5"
+            android:layout_alignEnd="@+id/button5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+                        style="@style/Base.TextAppearance.AppCompat.Display1"
+            android:textColor="#ff000000"
+            android:background="#66ffff1d" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DESSERTS"
+            android:id="@+id/button8"
+            android:layout_below="@+id/button87"
+            android:layout_marginTop="40sp"
+            android:layout_alignRight="@+id/button7"
+            android:layout_alignEnd="@+id/button7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+
+            style="@style/Base.TextAppearance.AppCompat.Display1"
+            android:textColor="#ff000000"
+            android:background="#66ffff1d" />
+
+    </RelativeLayout>
+</ScrollView>

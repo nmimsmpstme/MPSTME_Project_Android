@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".GMAL_LOGIN"
+    android:id="@+id/action_bar_title"
+    android:background="@drawable/background">
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:id="@+id/loginbtn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:clickable="true"
+        android:textStyle="bold|italic"
+        android:width="150sp"
+        android:onClick="sendMessage"
+        android:layout_alignEnd="@+id/loginpass"
+        android:layout_alignStart="@+id/loginpass" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/loginpass"
+        android:autoText="false"
+        android:clickable="true"
+        android:editable="true"
+        android:enabled="true"
+        android:textStyle="normal"
+        android:textColorHighlight="@color/abc_search_url_text"
+        android:password="true"
+        android:layout_above="@+id/loginbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="58dp"
+        android:hint="PASSWORD"
+        android:gravity="center"
+        android:textColor="#fffff9fb"
+        android:textColorHint="#fffff9fb" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sid"
+        android:layout_above="@+id/loginpass"
+        android:layout_marginBottom="48dp"
+        android:minWidth="120dp"
+        android:layout_alignEnd="@+id/loginpass"
+        android:layout_alignStart="@+id/loginpass"
+        android:hint="SAP ID"
+        android:gravity="center"
+        android:inputType="text"
+        android:textColor="#fffff9fb"
+        android:textColorHint="#fffff9fb" />
+
+</RelativeLayout>

@@ -1,0 +1,161 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    tools:context="com.example.shreyalgelani.gmal.form1">
+
+    <RadioGroup
+        android:id="@+id/rg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/textView4"
+        android:layout_alignParentStart="true">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Casual     "
+            android:id="@+id/crbtn"
+            android:layout_marginBottom="86dp"
+            android:checked="false"
+            android:textSize="22dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:clickable="true"
+            android:enabled="true"
+            android:textColor="#fffff9fb" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Sick        "
+            android:id="@+id/srbtn"
+            android:checked="false"
+            android:textSize="22dp"
+            android:layout_alignTop="@+id/crbtn"
+            android:layout_centerHorizontal="true"
+            android:layout_alignBottom="@+id/crbtn"
+            android:textColor="#fffff9fb" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duty"
+            android:id="@+id/drbtn"
+            android:checked="false"
+            android:textSize="22dp"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentEnd="true"
+            android:textColor="#fffff9fb" />
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:width="150dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Reason:"
+        android:id="@+id/textView3"
+        android:height="175dp"
+        android:layout_above="@+id/button"
+        android:layout_alignParentStart="true"
+        android:textColor="#fffff9fb" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="To:"
+        android:id="@+id/textView4"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/textView8"
+        android:textColor="#fffff9fb" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="From:"
+        android:id="@+id/textView5"
+        android:layout_above="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="44dp"
+        android:textColor="#fffff9fb" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignStart="@+id/editText3" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_toEndOf="@+id/textView6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="         "
+        android:id="@+id/textView6"
+        android:layout_above="@+id/textView5"
+        android:layout_toStartOf="@+id/button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Leave form"
+        android:id="@+id/textView7"
+        android:textSize="42dp"
+        android:textStyle="bold|italic"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+        android:layout_above="@+id/textView8"
+        android:layout_toEndOf="@+id/textView8"
+        android:textColor="#fffff9fb" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/textView3"
+        android:layout_above="@+id/rg1"
+        android:layout_alignEnd="@+id/rg1"
+        android:layout_alignStart="@+id/button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:layout_above="@+id/textView6"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_marginBottom="44dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText5"
+        android:layout_alignStart="@+id/editText"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView4"
+        android:layout_above="@+id/rg1" />
+
+</RelativeLayout>

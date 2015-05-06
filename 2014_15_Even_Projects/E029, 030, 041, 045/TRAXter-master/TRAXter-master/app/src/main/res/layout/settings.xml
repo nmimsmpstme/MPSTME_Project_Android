@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/textView2" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/playback" />
+    <CheckBox android:textSize="14.0sp" android:id="@id/shuffleCheckBox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/shuffle" />
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/textView3" android:paddingTop="15.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/library" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:gravity="center_vertical" android:id="@id/rescan" android:paddingRight="10.0sp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/fs_scan_start48" android:contentDescription="@string/sync_library" />
+        <TextView android:ellipsize="start" android:gravity="center_vertical" android:id="@id/mediaDir" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/default_path" android:singleLine="true" android:layout_weight="1.0" />
+        <ImageView android:gravity="center_vertical" android:id="@id/chooseMediaDir" android:layout_width="35.0dip" android:layout_height="fill_parent" android:src="@*android:drawable/ic_menu_edit" android:contentDescription="@string/edit_dir" />
+    </LinearLayout>
+    <ProgressBar android:id="@id/rescanProgressBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="100" style="\?android:attr/progressBarStyleHorizontal" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/rescanState" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:gravity="center_vertical" android:id="@id/togglePause" android:paddingRight="10.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fs_scan_pause48" android:contentDescription="@string/sync_library" />
+        <TextView android:ellipsize="start" android:gravity="center_vertical" android:id="@id/rescanProgressBarIndicatorTrack" android:paddingRight="20.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/trackInitialValue" android:singleLine="true" android:layout_weight="1.0" />
+        <TextView android:gravity="center_vertical" android:id="@id/rescanProgressBarIndicatorState" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/zero" />
+        <TextView android:gravity="center_vertical" android:id="@id/rescanProgressBarIndicatorDelitmiter" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/trackPostionSeparator" />
+        <TextView android:gravity="center_vertical" android:id="@id/rescanProgressBarIndicatorAll" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/zero" />
+    </LinearLayout>
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/about" android:paddingTop="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_desc" />
+</LinearLayout>

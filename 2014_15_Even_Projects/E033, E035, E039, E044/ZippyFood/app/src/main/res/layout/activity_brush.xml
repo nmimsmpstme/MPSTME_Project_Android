@@ -1,0 +1,61 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="16sp"
+    android:fillViewport="true"
+    android:paddingRight="16sp"
+    android:paddingTop="16sp"
+    android:paddingBottom="16sp"
+    tools:context="com.example.samarth.zippyfood.brush"
+    android:background="@drawable/back11">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="250sp"
+        android:layout_height="150sp"
+        android:id="@+id/imageView30"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/brush" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="BRUSCHETTA"
+        android:id="@+id/textView73"
+        android:layout_below="@+id/imageView30"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44sp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Basil and tomato add subtle flavour and texture to this awesome basic snack.
+
+        Serves 2.
+        Time to prepare-30 Mins. "
+        android:id="@+id/textView74"
+        android:layout_below="@+id/textView73"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59sp"
+        android:textSize="25sp"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD TO MY ORDER"
+        android:id="@+id/button98"
+        android:layout_alignParentBottom="true"
+        android:textSize="30sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
+</ScrollView>

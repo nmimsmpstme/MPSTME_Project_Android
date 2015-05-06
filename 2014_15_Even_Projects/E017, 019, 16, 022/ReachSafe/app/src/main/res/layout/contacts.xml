@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contact">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:gravity="center"
+        android:text="Please select the people you want to contact in case of emergency"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/Pro1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/c2"
+        android:layout_marginBottom="38dp"
+        android:background="@drawable/red_style"
+        android:text="Next"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/c1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginTop="61dp"
+        android:background="@drawable/red_style"
+        android:text="Contact"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="61dp"
+        android:layout_marginEnd="61dp" />
+
+    <Button
+        android:id="@+id/c2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:background="@drawable/red_style"
+        android:text="Contact"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/c1"
+        android:layout_alignLeft="@+id/c1"
+        android:layout_alignStart="@+id/c1"
+        android:layout_marginTop="57dp" />
+
+    <EditText
+        android:id="@+id/name2"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/c2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/c2"
+        android:layout_marginLeft="46dp"
+        android:layout_toLeftOf="@+id/c2"
+        android:ems="10"
+        android:hint="Enter the name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/name1"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:ems="10"
+        android:hint="Enter the name"
+        android:inputType="textPersonName"
+        android:layout_alignTop="@+id/c1"
+        android:layout_alignLeft="@+id/name2"
+        android:layout_alignStart="@+id/name2"
+        android:layout_toLeftOf="@+id/c1"
+        android:layout_toStartOf="@+id/c1"
+        android:layout_above="@+id/c2" />
+
+    <TextView
+        android:id="@+id/cinfo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name2"
+        android:layout_below="@+id/name2"
+        android:layout_marginTop="46dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/cinfo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cinfo1"
+        android:layout_below="@+id/cinfo1"
+        android:layout_marginTop="24dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

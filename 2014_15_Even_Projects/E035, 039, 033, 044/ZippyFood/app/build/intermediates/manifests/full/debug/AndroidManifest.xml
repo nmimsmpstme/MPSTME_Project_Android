@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.samarth.zippyfood"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <!--
+      IMPORTANT: Change "com.parse.tutorials.pushnotifications.permission.C2D_MESSAGE" in the lines below
+      to match your app's package name + ".permission.C2D_MESSAGE".
+    -->
+    <permission
+        android:name="com.example.samarth.zippyfood.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.samarth.zippyfood.permission.C2D_MESSAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.samarth.zippyfood.menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.starter"
+            android:label="@string/title_activity_starter" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.maincourse"
+            android:label="@string/title_activity_maincourse" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.drinks"
+            android:label="@string/title_activity_drinks" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.desserts"
+            android:label="@string/title_activity_desserts" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.cbm"
+            android:label="@string/title_activity_cbm" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.chickmomos"
+            android:label="@string/title_activity_chickmomos" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.dof"
+            android:label="@string/title_activity_dof" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.pbp"
+            android:label="@string/title_activity_pbp" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.serniorita"
+            android:label="@string/title_activity_serniorita" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.todiefor"
+            android:label="@string/title_activity_todiefor" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.virginmojito"
+            android:label="@string/title_activity_virginmojito" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.tigerswing"
+            android:label="@string/title_activity_tigerswing" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.ccwh"
+            android:label="@string/title_activity_ccwh" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.dalbukhara"
+            android:label="@string/title_activity_dalbukhara" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.malaikofta"
+            android:label="@string/title_activity_malaikofta" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.misedveggies"
+            android:label="@string/title_activity_misedveggies" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.mudcake"
+            android:label="@string/title_activity_mudcake" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.chocolatemousse"
+            android:label="@string/title_activity_chocolatemousse" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.icecream"
+            android:label="@string/title_activity_icecream" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.chocobrownie"
+            android:label="@string/title_activity_chocobrownie" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.welcome2"
+            android:label="@string/title_activity_welcome2" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.welcome1"
+            android:label="@string/title_activity_welcome1" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.chinese"
+            android:label="@string/title_activity_chinese" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.indian"
+            android:label="@string/title_activity_indian" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.pnrtk"
+            android:label="@string/title_activity_pnrtk" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.sabsh"
+            android:label="@string/title_activity_sabsh" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.pnssh"
+            android:label="@string/title_activity_pnssh" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.sabko"
+            android:label="@string/title_activity_sabko" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.chickar"
+            android:label="@string/title_activity_chickar" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.saagmeat"
+            android:label="@string/title_activity_saagmeat" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.chicmal"
+            android:label="@string/title_activity_chicmal" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.mutdopya"
+            android:label="@string/title_activity_mutdopya" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.chowmein"
+            android:label="@string/title_activity_chowmein" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.springroll"
+            android:label="@string/title_activity_springroll" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.rice"
+            android:label="@string/title_activity_rice" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.breads"
+            android:label="@string/title_activity_breads" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.salads"
+            android:label="@string/title_activity_salads" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.vegmanch"
+            android:label="@string/title_activity_vegmanch" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.vegrice"
+            android:label="@string/title_activity_vegrice" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.chillychic"
+            android:label="@string/title_activity_chillychic" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.chicchow"
+            android:label="@string/title_activity_chicchow" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.thai"
+            android:label="@string/title_activity_thai" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.italian"
+            android:label="@string/title_activity_italian" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.brush"
+            android:label="@string/title_activity_brush" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.calzone"
+            android:label="@string/title_activity_calzone" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.cbd"
+            android:label="@string/title_activity_cbd" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.chicpasta"
+            android:label="@string/title_activity_chicpasta" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.chicspa"
+            android:label="@string/title_activity_chicspa" >
+        </activity>
+        <activity
+            android:name="com.example.samarth.zippyfood.rcp"
+            android:label="@string/title_activity_rcp" >
+        </activity>
+    </application>
+
+</manifest>

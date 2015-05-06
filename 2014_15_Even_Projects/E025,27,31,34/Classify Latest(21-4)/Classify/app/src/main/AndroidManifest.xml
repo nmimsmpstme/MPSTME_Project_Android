@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iot.classify" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="Classify"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".sign_in"
+            android:label="Classify" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".class_level_notifications"
+            android:label="Class Notifications" >
+        </activity>
+        <activity
+            android:name=".add_class_notification"
+            android:label="Add Class Notification" >
+        </activity>
+        <activity
+            android:name=".events_notifications"
+            android:label="Event Notifications" >
+        </activity>
+        <activity
+            android:name=".institute_notifications"
+            android:label="Institute Notifications" >
+        </activity>
+        <activity
+            android:name=".request_tab"
+            android:label="Coaching Request" >
+        </activity>
+        <activity
+            android:name=".add_event_notification"
+            android:label="Add Event Notification" >
+        </activity>
+        <activity
+            android:name=".add_institute_notification"
+            android:label="Add Institute Notification" >
+        </activity>
+        <activity
+            android:name=".add_request"
+            android:label="Add Request" >
+        </activity>
+        <activity
+            android:name=".rem_request"
+            android:label="Remove Request" >
+        </activity>
+    </application>
+
+</manifest>

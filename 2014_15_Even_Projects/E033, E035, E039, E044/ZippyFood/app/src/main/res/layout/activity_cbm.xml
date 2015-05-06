@@ -1,0 +1,61 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:paddingLeft="16sp"
+    android:paddingRight="16sp"
+    android:paddingTop="16sp"
+    android:paddingBottom="16sp"
+    tools:context="com.example.samarth.food.cbm"
+    android:background="@drawable/back2">
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:layout_width="300sp"
+        android:layout_height="200sp"
+        android:id="@+id/imageView105"
+        android:src="@drawable/cbm"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="CHILLY BASIL MUSHROOM"
+        android:id="@+id/textView106"
+        style="@style/Base.TextAppearance.AppCompat.Body2"
+        android:textSize="26sp"
+        android:layout_below="@+id/imageView105"
+        android:layout_alignRight="@+id/imageView105"
+        android:layout_alignEnd="@+id/imageView105"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Mushroom cooked in chopped yellow chilles and thick gravy of tomatoes and ginger"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/textView106"
+        android:layout_alignLeft="@+id/imageView105"
+        android:layout_alignStart="@+id/imageView105"
+        android:layout_marginTop="58sp"
+        style="@style/Base.TextAppearance.AppCompat.Body2"
+        android:textSize="25sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD TO MY ORDER"
+        android:id="@+id/button21"
+        style="@style/Base.TextAppearance.AppCompat.Display1"
+        android:textColor="#ff000000"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView7"
+        android:layout_alignEnd="@+id/textView7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
+</ScrollView>
