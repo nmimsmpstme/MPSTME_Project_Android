@@ -1,0 +1,82 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:paddingLeft="16sp"
+    android:paddingRight="16sp"
+    android:paddingTop="16sp"
+    android:paddingBottom="16sp"
+    tools:context="com.example.samarth.zippyfood.starter"
+    android:background="@drawable/back5">
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="STARTERS"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold|italic"
+        android:textColor="#fffff300"
+        android:textSize="40sp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PANEER BLAST PEPPER                          ₹ 350"
+        android:id="@+id/button90"
+        android:layout_marginTop="76sp"
+        style="@style/Base.TextAppearance.AppCompat.Menu"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#ffffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHILLY BASIL MUSHROOM                   ₹ 150"
+        android:id="@+id/button91"
+        android:layout_below="@+id/button90"
+        android:layout_marginTop="40sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        style="@style/Base.TextAppearance.AppCompat.Menu"
+        android:background="#ffffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHICKEN MOMOS                                  ₹ 220"
+        android:id="@+id/button92"
+        style="@style/Base.TextAppearance.AppCompat.Menu"
+        android:layout_marginTop="44sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/button91"
+        android:background="#ffffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SPRING ROLL                                                 ₹ 260"
+        android:id="@+id/button113"
+        android:layout_marginTop="36sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="15sp"
+        android:background="#ffffffff"
+        android:layout_below="@id/button92" />
+
+</RelativeLayout>
+</ScrollView><!-- From: file:/C:/Users/Samarth/AndroidStudioProjects/ZippyFood/app/src/main/res/layout/activity_starter.xml -->

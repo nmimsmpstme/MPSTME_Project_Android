@@ -1,0 +1,64 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:paddingLeft="16sp"
+    android:paddingRight="16sp"
+    android:paddingTop="16sp"
+    android:paddingBottom="16sp"
+    tools:context="com.example.samarth.zippyfood.ccwh"
+    android:background="@drawable/back10">
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:layout_width="300sp"
+        android:layout_height="150sp"
+        android:id="@+id/imageView107"
+        android:src="@drawable/image16"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="COTTAGE CHEESE WITH                       HERBS"
+        android:id="@+id/textView108"
+        android:textSize="30sp"
+        android:textColor="#ffffffff"
+        android:textStyle="bold|italic"
+        android:layout_below="@+id/imageView107"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="A popular Indian delicacy cooked in onion, tomato, fresh herbs and Indain spices "
+        android:id="@+id/textView109"
+        android:textColor="#ffffffff"
+        android:textIsSelectable="false"
+        android:textSize="30sp"
+        android:layout_below="@+id/textView108"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD TO MY ORDER"
+        android:id="@+id/button29"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView108"
+        android:layout_alignEnd="@+id/textView108"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:background="#ffffffff" />
+</RelativeLayout>
+</ScrollView>
+<!-- From: file:/C:/Users/Samarth/AndroidStudioProjects/ZippyFood/app/src/main/res/layout/activity_ccwh.xml -->

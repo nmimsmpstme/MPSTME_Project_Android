@@ -1,0 +1,7 @@
+C:\Users\Samarth\AndroidStudioProjects\ZippyFood\app\build\intermediates\classes\debug
+C:\Users\Samarth\AndroidStudioProjects\ZippyFood\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-af0501415dbce3e75aaa1426943a38c53365c7c0.jar
+C:\Users\Samarth\AndroidStudioProjects\ZippyFood\app\build\intermediates\pre-dexed\debug\bolts-android-1.2.0-43038fcdbc7c21b5add64dcc969180ebb5795685.jar
+C:\Users\Samarth\AndroidStudioProjects\ZippyFood\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-78540dc0bfd4396252bc2152c8c7602425deaa31.jar
+C:\Users\Samarth\AndroidStudioProjects\ZippyFood\app\build\intermediates\pre-dexed\debug\classes-9dce590973e3fe8e8045006a6db126aebb9fbb8e.jar
+C:\Users\Samarth\AndroidStudioProjects\ZippyFood\app\build\intermediates\pre-dexed\debug\Parse-1.9.1-9c4ec6f06e1a096b9234298b273fbecf3247acca.jar
+C:\Users\Samarth\AndroidStudioProjects\ZippyFood\app\build\intermediates\pre-dexed\debug\classes-a932a5c09c671e27edf234bd6a7865e11f1eb071.jar

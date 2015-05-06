@@ -1,0 +1,58 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="16sp"
+    android:fillViewport="true"
+    android:paddingRight="16sp"
+    android:paddingTop="16sp"
+    android:paddingBottom="16sp"
+    tools:context="com.example.samarth.food.seniorita"
+    android:background="@drawable/back8">
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:layout_width="300sp"
+        android:layout_height="150sp"
+        android:id="@+id/imageView7"
+        android:src="@drawable/image14"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SENIORITA"
+        android:id="@+id/textView19"
+        android:textSize="50sp"
+        android:textColor="#ffffffff"
+        android:layout_below="@+id/imageView7"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="A layer of Strawberry Crush, Mango Juice Topped with Lemonade"
+        android:id="@+id/textView20"
+        android:layout_below="@+id/textView19"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="69sp"
+        android:textSize="25sp"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD TO MY ORDER"
+        android:id="@+id/button27"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView20"
+        android:layout_alignEnd="@+id/textView20"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="25sp"
+        android:background="#ffffffff" />
+</RelativeLayout>
+</ScrollView><!-- From: file:/C:/Users/Samarth/AndroidStudioProjects/ZippyFood/app/src/main/res/layout/activity_serniorita.xml -->

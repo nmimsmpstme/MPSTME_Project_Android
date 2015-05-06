@@ -1,0 +1,106 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="16sp"
+   android:fillViewport="true"
+    android:paddingRight="16sp"
+    android:paddingTop="16sp"
+    android:paddingBottom="16sp"
+    tools:context="com.example.samarth.zippyfood.breads"
+    android:background="@drawable/back15">
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="BREADS"
+        android:id="@+id/textView60"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:textStyle="bold|italic"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAAN                                                                        ₹ 55"
+        android:id="@+id/button66"
+        android:layout_marginTop="42sp"
+        android:layout_below="@+id/textView60"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#ffffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTER NAAN                                                        ₹ 60"
+        android:id="@+id/button67"
+        android:layout_below="@+id/button66"
+        android:layout_marginTop="41sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#ffffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TANDOORI ROTI                                                     ₹ 25"
+        android:id="@+id/button68"
+        android:layout_below="@+id/button67"
+        android:layout_marginTop="30sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#ffffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTER ROTI                                                         ₹ 30"
+        android:id="@+id/button69"
+        android:layout_below="@+id/button68"
+        android:layout_marginTop="33sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#ffffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GARLIC NAAN                                                      ₹ 45"
+        android:id="@+id/button71"
+        android:layout_below="@+id/button69"
+        android:layout_marginTop="38sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#ffffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LACCHA PARANTHA                                            ₹ 50"
+        android:id="@+id/button72"
+        android:layout_below="@+id/button71"
+        android:layout_marginTop="39sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#ffffffff" />
+</RelativeLayout>
+    </ScrollView>
+<!-- From: file:/C:/Users/Samarth/AndroidStudioProjects/ZippyFood/app/src/main/res/layout/activity_breads.xml -->

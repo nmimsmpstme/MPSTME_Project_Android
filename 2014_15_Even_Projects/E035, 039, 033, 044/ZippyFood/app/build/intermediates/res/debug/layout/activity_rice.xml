@@ -1,0 +1,127 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="16sp"
+    android:fillViewport="true"
+    android:paddingRight="16sp"
+    android:paddingTop="16sp"
+    android:paddingBottom="16sp"
+    tools:context="com.example.samarth.zippyfood.rice"
+    android:background="@drawable/back19">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="RICE AND BIRYANI"
+        android:id="@+id/textView59"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:textStyle="bold|italic"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHICKEN BIRYANI                                               ₹ 329  "
+        android:id="@+id/button58"
+        android:layout_marginTop="42sp"
+        android:layout_below="@+id/textView59"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MUTTON BIRYANI                                              ₹  300"
+        android:id="@+id/button59"
+        android:layout_marginTop="30sp"
+        android:layout_below="@+id/button58"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VEG BIRYANI                                                        ₹  250"
+        android:id="@+id/button60"
+        android:layout_marginTop="32sp"
+        android:layout_below="@+id/button59"
+        android:layout_alignRight="@+id/button61"
+        android:layout_alignEnd="@+id/button61"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PEAS PULAO                                                         ₹ 180"
+        android:id="@+id/button61"
+        android:layout_marginTop="38sp"
+        android:layout_below="@+id/button60"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MUSHROOM RICE                                                   ₹ 225"
+        android:id="@+id/button62"
+        android:layout_below="@+id/button63"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="39sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#ffffffff" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RAISIN AND NUTS RICE                                        ₹ 190"
+        android:id="@+id/button63"
+        android:layout_marginTop="36sp"
+        android:layout_below="@+id/button61"
+        android:layout_alignRight="@+id/button62"
+        android:layout_alignEnd="@+id/button62"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffffffff" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JEERA PULAO                                                        ₹ 180"
+        android:id="@+id/button64"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/button62"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffffffff"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLAIN BASMATI RICE                                          ₹ 150"
+        android:id="@+id/button65"
+        android:layout_below="@+id/button64"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="39sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#ffffffff" />
+
+</RelativeLayout>
+</ScrollView><!-- From: file:/C:/Users/Samarth/AndroidStudioProjects/ZippyFood/app/src/main/res/layout/activity_rice.xml -->

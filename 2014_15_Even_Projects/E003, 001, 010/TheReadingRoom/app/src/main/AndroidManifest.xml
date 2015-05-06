@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aashya.thereadingroom" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.aashya.thereadingroom.splash"
+            android:label="@string/app_name" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter> </activity>
+        <activity
+            android:name="com.example.aashya.thereadingroom.menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aashya.thereadingroom.menu"/>
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".wishlist"
+            android:label="@string/title_activity_wishlist" >
+        </activity>
+        <activity
+            android:name=".search"
+            android:label="@string/title_activity_main"
+            android:windowSoftInputMode="stateHidden">
+
+            </activity>
+        <activity
+            android:name=".wishAc"
+            android:label="@string/title_wish" >
+        </activity>
+        <activity
+            android:name=".american1"
+            android:label="@string/title_american1" >
+        </activity>
+        <activity
+            android:name=".american2"
+            android:label="@string/title_american2" >
+        </activity>
+        <activity
+            android:name=".american3"
+            android:label="@string/title_american3" >
+        </activity>
+        <activity
+            android:name=".british1"
+            android:label="@string/title_british1" >
+        </activity>
+        <activity
+            android:name=".british2"
+            android:label="@string/title_british2" >
+        </activity>
+        <activity
+            android:name=".british3"
+            android:label="@string/title_british3" >
+        </activity>
+        <activity
+            android:name=".asciatic1"
+            android:label="@string/title_asciatic1" >
+        </activity>
+        <activity
+            android:name=".asciatic2"
+            android:label="@string/title_asciatic2" >
+        </activity>
+        <activity
+            android:name=".asciatic3"
+            android:label="@string/title_asciatic3" >
+        </activity>
+        <activity
+            android:name=".tata1"
+            android:label="@string/title_tata1" >
+        </activity>
+        <activity
+            android:name=".tata2"
+            android:label="@string/title_tata2" >
+        </activity>
+        <activity
+            android:name=".tata3"
+            android:label="@string/title_tata3" >
+        </activity>
+        <activity
+            android:name=".main"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".libraries"
+            android:label="@string/title_activity_libraries" >
+        </activity>
+
+    </application>
+
+</manifest>

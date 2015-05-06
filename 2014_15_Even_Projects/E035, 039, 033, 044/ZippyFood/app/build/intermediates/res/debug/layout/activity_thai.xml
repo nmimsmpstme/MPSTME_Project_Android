@@ -1,0 +1,56 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="16sp"
+    android:fillViewport="true"
+    android:paddingRight="16sp"
+    android:paddingTop="16sp"
+    android:paddingBottom="16sp"
+    tools:context="com.example.samarth.zippyfood.thai"
+    android:background="@drawable/back15">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="150sp"
+        android:layout_height="200sp"
+        android:id="@+id/imageView29"
+        android:src="@drawable/ssp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SWEET AND SOUR PORK"
+        android:id="@+id/textView70"
+        android:layout_below="@+id/imageView29"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sweet and sour pork has a bright orange-red color, and a delicious sweet and sour taste."
+        android:id="@+id/textView71"
+        android:layout_below="@+id/textView70"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67sp"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD TO MY ORDER"
+        android:id="@+id/button86"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageView29"
+        android:layout_alignStart="@+id/imageView29"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="35sp" />
+</RelativeLayout>
+</ScrollView><!-- From: file:/C:/Users/Samarth/AndroidStudioProjects/ZippyFood/app/src/main/res/layout/activity_thai.xml -->

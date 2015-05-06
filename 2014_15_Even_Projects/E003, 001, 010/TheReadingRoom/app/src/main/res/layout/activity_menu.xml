@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/download">
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Libraries"
+        android:id="@+id/libraries"
+        android:height="100dp"
+        android:maxWidth="150dp"
+        android:minWidth="150dp"
+        android:minHeight="100dp"
+        android:maxHeight="150dp"
+        android:textAlignment="center"
+        android:background="#fffffbf4"
+        android:textSize="20dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:id="@+id/search"
+        android:maxHeight="150dp"
+        android:maxWidth="150dp"
+        android:minHeight="100dp"
+        android:minWidth="150dp"
+        android:background="#fffffbf4"
+        android:textSize="20dp"
+        android:layout_below="@+id/libraries"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wishlist"
+        android:id="@+id/wishlist"
+        android:maxHeight="150dp"
+        android:maxWidth="150dp"
+        android:minHeight="100dp"
+        android:minWidth="150dp"
+        android:background="#fffffbf4"
+        android:textSize="20dp"
+        android:layout_above="@+id/libraries"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="         MENU"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:height="100dp"
+        android:textSize="50dp"
+        android:textColor="#ffffffff" />
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#fffffd07"
+    android:backgroundTint="#63ffa70a"
+    android:clickable="false">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:autoText="false"
+        android:text="British Council"
+        android:gravity="center"
+
+        android:background="#b4ff3705"
+        android:elegantTextHeight="true"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:elegantTextHeight="true"
+        android:gravity="center"
+        android:paddingEnd="18dp"
+        android:paddingStart="18dp"
+        android:textColor="#ff000000"
+        android:textSize="18dp"
+        android:text="Address : British Council Division, British Deputy High Commission 901, 9th Floor, Tower 1, One Indiabulls Centre,  841, Senapati Bapat Marg  Elphinstone Road (West),  Mumbai - 400013"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="69dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Number : 18001024353 Available Monday to Saturday (except Public Holidays) between 10:00 am and 06:00 pm."
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:textColor="#ff000000"
+        android:textIsSelectable="false"
+        android:textSize="18dp"
+        android:paddingEnd="18dp"
+        android:paddingStart="18dp"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

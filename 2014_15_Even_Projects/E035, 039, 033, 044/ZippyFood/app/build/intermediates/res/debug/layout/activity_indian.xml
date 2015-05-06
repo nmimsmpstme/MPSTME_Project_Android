@@ -1,0 +1,137 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="16sp"
+    android:fillViewport="true"
+    android:paddingRight="16sp"
+    android:paddingTop="16sp"
+    android:paddingBottom="16sp"
+    tools:context="com.example.samarth.zippyfood.indian"
+    android:background="@drawable/back12">
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="INDIAN"
+        android:id="@+id/textView6"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SABZI SHASHLIK                                        ₹ 280"
+        android:id="@+id/button11"
+        android:layout_marginTop="38sp"
+
+       android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView6" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COTTAGE CHEESE WITH HERBS              ₹ 300"
+        android:id="@+id/button102"
+        android:layout_below="@+id/button11"
+        android:layout_alignLeft="@+id/button37"
+        android:layout_alignStart="@+id/button37"
+        android:layout_marginTop="36sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PANEER SHASHLIK                                     ₹ 310"
+        android:id="@+id/button12"
+        android:layout_marginTop="38sp"
+        android:layout_below="@+id/button102"
+        android:layout_alignLeft="@+id/button102"
+        android:layout_alignStart="@+id/button102"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MALAI KOFTA                                             ₹ 250"
+        android:id="@+id/button103"
+        android:layout_marginTop="38sp"
+        android:layout_below="@+id/button12"
+        android:layout_alignLeft="@+id/button12"
+        android:layout_alignStart="@+id/button12"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SABZI KORAI                                              ₹ 300"
+        android:id="@+id/button37"
+        android:layout_marginTop="35sp"
+        android:layout_below="@+id/button103"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHICKEN KHARCHI                                    ₹ 360"
+        android:id="@+id/button39"
+        android:layout_below="@+id/button37"
+        android:layout_alignRight="@+id/button11"
+        android:layout_alignEnd="@+id/button11"
+        android:layout_marginTop="38sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAAG MEAT                                                 ₹ 380"
+        android:id="@+id/button43"
+        android:layout_below="@+id/button39"
+        android:layout_alignLeft="@+id/button37"
+        android:layout_alignStart="@+id/button37"
+        android:layout_marginTop="36sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHICKEN MALYAN                                     ₹ 400"
+        android:id="@+id/button44"
+        android:layout_below="@+id/button43"
+        android:layout_alignLeft="@+id/button37"
+        android:layout_alignStart="@+id/button37"
+        android:layout_marginTop="36sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MUTTON DO PYAAZA                              ₹ 380"
+        android:id="@+id/button40"
+        android:layout_below="@+id/button44"
+        android:layout_alignLeft="@+id/button37"
+        android:layout_alignStart="@+id/button37"
+        android:layout_marginTop="36sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
+</ScrollView><!-- From: file:/C:/Users/Samarth/AndroidStudioProjects/ZippyFood/app/src/main/res/layout/activity_indian.xml -->

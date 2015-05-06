@@ -1,0 +1,59 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="16sp"
+    android:paddingRight="16sp"
+    android:fillViewport="true"
+    android:paddingTop="16sp"
+    android:paddingBottom="16sp"
+    tools:context="com.example.samarth.zippyfood.malaikofta"
+    android:background="@drawable/image6">
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:layout_width="350sp"
+        android:layout_height="200sp"
+        android:id="@+id/imageView11"
+        android:src="@drawable/image18"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="MALAI KOFTA"
+        android:id="@+id/textView27"
+        android:layout_below="@+id/imageView11"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold|italic"
+        android:textSize="45sp"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Cottage cheese ball stuffed with dry fruits dumpling in mughlai gravy"
+        android:id="@+id/textView28"
+        android:textSize="30sp"
+        android:textColor="#ffffffff"
+        android:layout_below="@+id/textView27"
+        android:layout_alignLeft="@+id/imageView11"
+        android:layout_alignStart="@+id/imageView11"
+        android:layout_marginTop="39sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD TO MY ORDER"
+        android:id="@+id/button31"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="48sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="30sp" />
+</RelativeLayout>
+</ScrollView><!-- From: file:/C:/Users/Samarth/AndroidStudioProjects/ZippyFood/app/src/main/res/layout/activity_malaikofta.xml -->

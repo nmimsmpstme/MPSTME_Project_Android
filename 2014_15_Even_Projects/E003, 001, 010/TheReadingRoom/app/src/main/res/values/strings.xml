@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">The Reading Room</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_wishlist">wishlist</string>
+    <string name="title_activity_main">wishlist</string>
+    <string name="title_activity_menu">menu</string>
+    <string name="title_activity_libraries">libraries</string>
+    <string name="title_searchdata">search</string>
+    <string name="title_british1">british</string>
+    <string name="title_british2">british about us</string>
+    <string name="title_british3">british contact</string>
+    <string name="title_tata1">tata</string>
+    <string name="title_tata2">tata about</string>
+    <string name="title_tata3">tata contact</string>
+    <string name="title_asciatic1">asciatic</string>
+    <string name="title_american1">american</string>
+    <string name="title_american2">american about us</string>
+    <string name="title_american3">american contact</string>
+    <string name="title_splash">splash</string>
+    <string name="title_listitemsearch">list search</string>
+    <string name="title_asciatic2">asciatic about us</string>
+    <string name="title_asciatic3">asciatic contact</string>
+    <string name="title_addwish">add</string>
+    <string name="title_wish">wish</string>
+    <string name="enter_wish">Enter Note:</string>
+    <string name="create_task">CREATE TASK</string>
+
+</resources>

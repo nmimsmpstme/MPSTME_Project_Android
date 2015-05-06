@@ -1,0 +1,62 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="match_parent" android:paddingLeft="16sp"
+    android:paddingRight="16sp"
+    android:paddingTop="16sp"
+    android:paddingBottom="16sp"
+    tools:context="com.example.samarth.zippyfood.saagmeat"
+    android:background="@drawable/back36">
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:layout_width="250sp"
+        android:layout_height="150sp"
+        android:id="@+id/imageView21"
+        android:layout_centerHorizontal="true"
+                android:src="@drawable/sm" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SAAG MEAT"
+        android:id="@+id/textView45"
+        android:layout_below="@+id/imageView21"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42sp"
+        android:textStyle="bold|italic"
+        android:textSize="30sp"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Lamb or chicken or mutton cooked in a spinach sauce
+
+        		  Serves: 2 or 3
+        		  Time needed 20min "
+        android:id="@+id/textView46"
+        android:layout_below="@+id/textView45"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="58sp"
+        android:textSize="25sp"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD TO MY ORDER"
+        android:id="@+id/button50"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="25sp" />
+
+</RelativeLayout>
+</ScrollView><!-- From: file:/C:/Users/Samarth/AndroidStudioProjects/ZippyFood/app/src/main/res/layout/activity_saagmeat.xml -->

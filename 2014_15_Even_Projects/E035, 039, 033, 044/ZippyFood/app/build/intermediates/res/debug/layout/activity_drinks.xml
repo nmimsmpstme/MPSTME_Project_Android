@@ -1,0 +1,91 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:paddingLeft="16sp"
+    android:paddingRight="16sp"
+    android:paddingTop="16sp"
+    android:paddingBottom="16sp"
+
+    tools:context="com.example.samarth.food.drinks"
+    android:background="@drawable/image7"
+    >
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="DRINKS"
+        android:id="@+id/textView4"
+        android:textColor="#ffffffff"
+        style="@style/Base.TextAppearance.AppCompat.Display3"
+        android:fontFeatureSettings="@string/abc_searchview_description_query"
+        android:fontFamily="@string/abc_action_bar_home_description_format"
+        android:focusable="false"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIGER SWING                                          ₹ 195"
+        android:id="@+id/button13"
+        style="@style/Base.TextAppearance.AppCompat.Menu"
+        android:layout_above="@+id/button14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="54sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#ffffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VIRGIN MOJITO                                       ₹ 195"
+        android:id="@+id/button14"
+        style="@style/Base.TextAppearance.AppCompat.Menu"
+        android:layout_above="@+id/button15"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="66sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#ffffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SENIORITA                                                 ₹ 195"
+        android:id="@+id/button15"
+        style="@style/Base.TextAppearance.AppCompat.Menu"
+        android:layout_above="@+id/button16"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="52sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#ffffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TO DIE FOR                                                 ₹ 195"
+        android:id="@+id/button16"
+        style="@style/Base.TextAppearance.AppCompat.Menu"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="104sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#ffffffff" />
+
+
+</RelativeLayout>
+
+</ScrollView><!-- From: file:/C:/Users/Samarth/AndroidStudioProjects/ZippyFood/app/src/main/res/layout/activity_drinks.xml -->

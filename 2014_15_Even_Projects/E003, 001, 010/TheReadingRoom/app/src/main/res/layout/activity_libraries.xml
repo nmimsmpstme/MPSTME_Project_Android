@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/library">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="          LIBRARIES"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:minHeight="100dp"
+        android:textColor="#ff000000"
+        android:textSize="40dp"
+        android:textAlignment="center" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="American Library"
+        android:id="@+id/button4"
+        android:minHeight="80dp"
+        android:minWidth="250dp"
+        android:textSize="30dp"
+        android:background="#ff000000"
+        android:textColor="#ffffffff"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BRITISH COUNCIL"
+        android:id="@+id/button5"
+        android:minHeight="80dp"
+        android:minWidth="250dp"
+        android:textSize="30dp"
+        android:background="#ff000000"
+        android:textColor="#ffffffff"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TATA LIBRARAY"
+        android:id="@+id/button6"
+        android:minHeight="80dp"
+        android:minWidth="250dp"
+        android:textSize="30dp"
+        android:background="#ff000000"
+        android:textColor="#ffffffff"
+        android:layout_below="@+id/button5"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_alignStart="@+id/button5" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ASIATIC"
+        android:id="@+id/button7"
+        android:minHeight="80dp"
+        android:minWidth="250dp"
+        android:textSize="30dp"
+        android:background="#ff000000"
+        android:textColor="#ffffffff"
+        android:layout_below="@+id/button6"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

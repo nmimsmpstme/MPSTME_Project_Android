@@ -1,0 +1,63 @@
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="16sp"
+        android:fillViewport="true"
+        android:paddingRight="16sp"
+        android:paddingTop="16sp"
+        android:paddingBottom="16sp"
+        tools:context="com.example.samarth.zippyfood.chillychic"
+        android:background="@drawable/back34">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="200sp"
+            android:layout_height="200sp"
+            android:id="@+id/imageView27"
+            android:src="@drawable/chilchic"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="CHILLY CHICKEN"
+            android:id="@+id/textView66"
+            android:textSize="35sp"
+            android:textColor="#ffffffff"
+            android:layout_below="@+id/imageView27"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Pieces of chicken well cooked in chinese gravy and served hot.
+
+            Serves 2
+            Time Required  20 Mins"
+            android:id="@+id/textView67"
+            android:textColor="#ffffffff"
+            android:layout_below="@+id/textView66"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="67sp"
+            android:textSize="25sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD TO MY ORDER"
+            android:id="@+id/button84"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/textView67"
+            android:layout_alignEnd="@+id/textView67"
+            android:textSize="30sp" />
+
+
+    </RelativeLayout>
+    </ScrollView><!-- From: file:/C:/Users/Samarth/AndroidStudioProjects/ZippyFood/app/src/main/res/layout/activity_chillychic.xml -->
