@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.akul.splitfare.Preferences" >
+  <item
+        android:id="@+id/prefs_cancel"
+        android:orderInCategory="80"
+        android:showAsAction="always"
+        android:title="Cancel"
+        android:icon="@drawable/cross"
+        app:showAsAction="always"
+        />
+     
+<item
+        android:id="@+id/prefs_ok"
+        android:orderInCategory="80"
+        android:showAsAction="always"
+        android:title="Save"
+        app:showAsAction="always"
+        android:icon="@+drawable/tick"
+        />
+ 
+</menu>

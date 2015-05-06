@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="2" android:versionName="1.1" package="com.delta.attendancetracker"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:allowBackup="true">
+        <activity android:label="@string/app_name" android:name="com.delta.attendancetracker.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/title_activity_add_course" android:name="com.delta.attendancetracker.AddCourse" />
+        <activity android:label="@string/title_activity_edit_course" android:name="com.delta.attendancetracker.EditCourse" />
+        <activity android:label="@string/title_activity_course_attendance" android:name="com.delta.attendancetracker.CourseAttendance" />
+        <activity android:label="@string/title_activity_dummy" android:name="com.delta.attendancetracker.Dummy" />
+    </application>
+</manifest>

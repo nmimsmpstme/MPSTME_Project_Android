@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.akul.splitfare.GRPinfo" 
+     xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    >
+
+<TextView 
+android:id="@+id/tvtemp"
+android:layout_height="50dp"
+android:layout_width="match_parent"
+android:text="Members"
+android:textSize="18sp"
+android:paddingLeft="16dp"
+android:paddingTop="15dp"
+    />
+<ListView
+android:id="@+id/memlist"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_alignParentLeft="true"
+android:layout_below="@+id/tvtemp"
+>
+</ListView>
+
+<com.gc.materialdesign.views.ButtonFloat
+                android:id="@+id/buttonFloatadd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="10dp"
+                android:background="@+color/red_500"
+                materialdesign:animate="true"
+                materialdesign:iconDrawable="@drawable/ic_action_new" />
+
+</RelativeLayout>

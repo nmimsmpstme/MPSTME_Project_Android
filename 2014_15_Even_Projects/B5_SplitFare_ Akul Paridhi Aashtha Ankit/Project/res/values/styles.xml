@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+   <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">@+color/red_500</item>
+	 <item name="android:textColorPrimary">@+color/black</item>
+     <item name="colorPrimaryDark">@+color/red_800</item>
+          <item name="md_dark_theme">false</item>
+            <item name="colorAccent">@+color/grey_600</item>
+ </style>
+    <style name="LTred" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">@+color/red_500</item>
+	 <item name="android:textColorPrimary">@+color/black</item>
+     <item name="colorPrimaryDark">@+color/red_800</item>
+          <item name="md_dark_theme">false</item>
+            <item name="colorAccent">@+color/grey_600</item>
+ </style>
+   
+  <style name="LTblue" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">@+color/blue_500</item>
+	 <item name="android:textColorPrimary">@+color/black</item>
+     <item name="colorPrimaryDark">@+color/blue_800</item>
+          <item name="md_dark_theme">false</item>
+            <item name="colorAccent">@+color/grey_600</item>
+ </style>
+  
+  <style name="LTgreen" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">@+color/green_500</item>
+	 <item name="android:textColorPrimary">@+color/black</item>
+     <item name="colorPrimaryDark">@+color/green_800</item>
+          <item name="md_dark_theme">false</item>
+            <item name="colorAccent">@+color/grey_600</item>
+ </style>
+  
+    <style name="LTindigo" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">@+color/indigo_500</item>
+	 <item name="android:textColorPrimary">@+color/black</item>
+     <item name="colorPrimaryDark">@+color/indigo_800</item>
+          <item name="md_dark_theme">false</item>
+            <item name="colorAccent">@+color/grey_600</item>
+            
+ </style>
+
+<style name="LTpink" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">@+color/pink_500</item>
+	 <item name="android:textColorPrimary">@+color/black</item>
+     <item name="colorPrimaryDark">@+color/pink_800</item>
+          <item name="md_dark_theme">false</item>
+            <item name="colorAccent">@+color/grey_600</item>
+            
+ </style>
+    <style name="LTpurple" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">@+color/purple_500</item>
+	 <item name="android:textColorPrimary">@+color/black</item>
+     <item name="colorPrimaryDark">@+color/purple_800</item>
+          <item name="md_dark_theme">false</item>
+            <item name="colorAccent">@+color/grey_600</item>
+            
+ </style><style name="LTteal" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">@+color/teal_500</item>
+	 <item name="android:textColorPrimary">@+color/black</item>
+     <item name="colorPrimaryDark">@+color/teal_800</item>
+          <item name="md_dark_theme">false</item>
+            <item name="colorAccent">@+color/grey_600</item>
+            
+ </style>
+   <style name="DTred" parent="Theme.AppCompat">
+    <item name="colorPrimary">@+color/red_500</item>
+     <item name="colorPrimaryDark">@+color/red_800</item>
+          <item name="md_dark_theme">true</item>
+ </style>
+   
+  <style name="DTblue" parent="Theme.AppCompat">
+    <item name="colorPrimary">@+color/blue_500</item>
+     <item name="colorPrimaryDark">@+color/blue_800</item>
+          <item name="md_dark_theme">true</item>
+ </style>
+  
+  <style name="DTgreen" parent="Theme.AppCompat">
+    <item name="colorPrimary">@+color/green_500</item>
+     <item name="colorPrimaryDark">@+color/green_800</item>
+          <item name="md_dark_theme">true</item>
+ </style>
+  
+    <style name="DTindigo" parent="Theme.AppCompat">
+    <item name="colorPrimary">@+color/indigo_500</item>
+     <item name="colorPrimaryDark">@+color/indigo_800</item>
+          <item name="md_dark_theme">true</item>
+ </style>
+
+<style name="DTpink" parent="Theme.AppCompat">
+    <item name="colorPrimary">@+color/pink_500</item>
+     <item name="colorPrimaryDark">@+color/pink_800</item>
+          <item name="md_dark_theme">true</item>
+ </style>
+ 
+    <style name="DTpurple" parent="Theme.AppCompat">
+    <item name="colorPrimary">@+color/purple_500</item>
+     <item name="colorPrimaryDark">@+color/purple_800</item>
+          <item name="md_dark_theme">true</item>
+ </style>
+
+ <style name="DTteal" parent="Theme.AppCompat">
+    <item name="colorPrimary">@+color/teal_500</item>
+     <item name="colorPrimaryDark">@+color/teal_800</item>
+          <item name="md_dark_theme">true</item>
+            
+ </style>
+</resources>

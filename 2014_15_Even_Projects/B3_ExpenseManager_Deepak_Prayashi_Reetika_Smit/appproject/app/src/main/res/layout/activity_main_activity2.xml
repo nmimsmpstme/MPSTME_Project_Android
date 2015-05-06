@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.smitd.appproject.MainActivity2"
+    android:id="@+id/relative"
+    android:touchscreenBlocksFocus="false"
+    android:background="@drawable/back">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="intent msg"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:id="@+id/label"
+         />
+    <Spinner
+       android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/category"
+        android:layout_below="@+id/label"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/text"
+        android:layout_toRightOf="@+id/text"
+
+        ></Spinner>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter expense for "
+        android:textSize="40px"
+        android:textAlignment="center"
+        android:id="@+id/text"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/label"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/et"
+        android:layout_alignRight="@+id/save"
+        android:layout_alignEnd="@+id/save" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et"
+        android:inputType="number"
+        android:textSize="40px"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/category"
+        android:layout_alignRight="@+id/category"
+        android:layout_alignEnd="@+id/category"></EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/save"
+        android:textColor="#dbf02335"
+        android:layout_marginTop="56dp"
+        android:layout_below="@+id/et"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View"
+        android:id="@+id/view"
+        android:layout_alignTop="@+id/save"
+        android:layout_alignRight="@+id/et"
+        android:layout_alignEnd="@+id/et"
+        android:layout_toRightOf="@+id/save"
+        android:layout_toEndOf="@+id/save"
+        android:textColor="#dbf02335" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:id="@+id/clear"
+        android:textColor="#db2235f0"
+        android:layout_alignTop="@+id/save"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/save" />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentEnd="true"
+    android:textAlignment="center">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select An Action First"
+        android:textSize="25sp"
+        android:id="@+id/tv"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+</ScrollView>
+
+</RelativeLayout>

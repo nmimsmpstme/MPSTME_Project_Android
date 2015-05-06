@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DIET PLANNER</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_bmr__calculator">BMR_CALCULATOR</string>
+    <string name="title_activity_meal">MEAL</string>
+    <string name="title_activity_breakfast">BREAKFAST</string>
+    <string name="title_activity_lunch">LUNCH</string>
+    <string name="title_activity_dinner">DINNER</string>
+    <string name="title_activity_prev__dat">PREV_DATA</string>
+</resources>

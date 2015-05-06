@@ -1,0 +1,137 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.akul.billsplit.Reglogin$PlaceholderFragment" >
+
+	<Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_register"
+        style="?android:attr/buttonBarButtonStyle"
+        android:text="Register"
+        android:textSize="16sp"
+        android:layout_alignParentBottom="true"
+         />
+	<View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:id="@+id/reg_div"
+        android:layout_marginLeft="0dip"
+        android:layout_marginRight="0dip"
+        android:background="?android:attr/dividerVertical"
+        android:layout_above="@+id/btn_register"
+        android:layout_marginTop="7dp"
+    /> 
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/reg_div"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+    	android:paddingRight="@dimen/activity_horizontal_margin"
+    	android:paddingTop="@dimen/activity_vertical_margin"
+    	android:layout_alignParentTop="true"
+        >
+    
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ 	 > 
+     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="First Name" 
+        android:textSize="20sp"
+        />
+    
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText3"
+        android:layout_marginTop="25dp"
+        android:text="Last Name" 
+        android:textSize="20sp"
+        />
+    
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:ems="10"
+         />
+   
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText4"
+        android:layout_marginTop="25dp"
+        android:text="E-Mail ID" 
+        android:textSize="20sp"
+        />
+    
+    
+      <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:ems="10"
+         />
+  
+     
+      <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText5"
+        android:layout_marginTop="25dp"
+        android:text="Create Password" 
+        android:textSize="20sp"
+        />
+    
+    
+      <EditText
+        android:id="@+id/editText7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:inputType="textPassword"
+        android:ems="10"
+         />
+  
+      <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText7"
+        android:layout_marginTop="25dp"
+        android:text="Confirm Password" 
+        android:textSize="20sp"
+        />
+    
+    
+      <EditText
+        android:id="@+id/editText8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:inputType="textPassword"
+        android:ems="10"
+         />
+ </RelativeLayout>
+</ScrollView>
+</RelativeLayout>

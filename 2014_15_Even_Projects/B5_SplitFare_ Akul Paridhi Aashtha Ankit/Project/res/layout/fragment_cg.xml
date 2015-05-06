@@ -1,0 +1,92 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.akul.billsplit.Reglogin$PlaceholderFragment" >
+    
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        style="?android:attr/buttonBarButtonStyle"
+        android:text="Create Group"
+        android:textSize="16sp"
+        android:id="@+id/btn_cg" 
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:id="@+id/reg_div"
+        android:layout_marginLeft="0dip"
+        android:layout_marginRight="0dip"
+        android:background="?android:attr/dividerVertical"
+        android:layout_above="@+id/btn_login"
+        android:layout_marginTop="7dp"
+    /> 
+    
+<RelativeLayout 
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    
+<TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Group Name" 
+        android:textSize="20sp"
+        />
+    
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/textView11"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText11"
+        android:layout_marginTop="25dp"
+        android:text="Create Password" 
+        android:textSize="20sp"
+        />
+    
+    <EditText
+        android:id="@+id/editText21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView21"
+        android:ems="10"
+        android:inputType="textPassword" />
+    
+<TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText21"
+        android:layout_marginTop="25dp"
+        android:text="Confirm Password" 
+        android:textSize="20sp"
+        />
+    
+    <EditText
+        android:id="@+id/editText31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView31"
+        android:ems="10"
+        android:inputType="textPassword" />
+    
+    
+</RelativeLayout>
+</RelativeLayout>

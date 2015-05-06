@@ -1,0 +1,76 @@
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:paddingBottom="@dimen/activity_vertical_margin"
+tools:context=".Notes"
+android:background="#ff353535">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="@string/underline"
+    android:textSize="40dp"
+    android:id="@+id/textView"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="10dp"
+    android:textColor="#ffffffff" />
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFD850FF"
+    android:text="Computer"
+    android:textSize="30dp"
+    android:id="@+id/btn_comp"
+    android:layout_below="@+id/textView"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="50dp"
+    android:textColor="#000000" />
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFD850FF"
+    android:layout_marginTop="10dp"
+    android:text="IT"
+    android:textSize="30dp"
+    android:id="@+id/btn_it"
+    android:layout_below="@+id/btn_comp"
+    android:layout_alignLeft="@+id/btn_comp"
+    android:layout_alignStart="@+id/btn_comp"
+    android:textColor="#000000" />
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFD850FF"
+    android:layout_marginTop="10dp"
+    android:text="Mechanical"
+    android:id="@+id/button3"
+    android:textSize="30dp"
+    android:layout_below="@+id/btn_it"
+    android:layout_alignLeft="@+id/btn_it"
+    android:layout_alignStart="@+id/btn_it"
+    android:textColor="#000000" />
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFD850FF"
+    android:layout_marginTop="10dp"
+    android:text="Civil"
+    android:textSize="30dp"
+    android:id="@+id/btn_civil"
+    android:layout_below="@+id/button3"
+    android:layout_alignLeft="@+id/button3"
+    android:layout_alignStart="@+id/button3"
+    android:textColor="#000000" />
+
+</RelativeLayout>

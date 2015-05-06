@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.akul.billsplit.Reglogin$PlaceholderFragment" >
+    
+<TextView
+        android:id="@+id/textView11sa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter New Group Name" 
+        android:textSize="20sp"
+        />
+    
+    <EditText
+        android:id="@+id/ed_grpnwname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/textView11sa"
+        android:ems="10" />
+    
+    </RelativeLayout>

@@ -1,0 +1,62 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.akul.splitfare.Groups" 
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+  <item
+        android:id="@+id/calc"
+        android:orderInCategory="80"
+        android:showAsAction="always"
+        android:title="Quick Split"
+        app:showAsAction="always"
+        android:icon="@+drawable/calc1"
+        />
+   <item
+        android:id="@+id/refresh_grps"
+        android:orderInCategory="80"
+        android:showAsAction="never"
+        android:title="Refresh"
+        app:showAsAction="never"
+        />
+ 
+   <item
+        android:id="@+id/my_profile"
+        android:orderInCategory="80"
+        android:showAsAction="never"
+        android:title="My Profile"
+        app:showAsAction="never"
+        />
+     
+     
+     <item
+        android:id="@+id/ab_Preferences"
+        android:orderInCategory="80"
+        android:showAsAction="never"
+        android:title="Preferences"
+        app:showAsAction="never"
+        />
+     
+     <item
+        android:id="@+id/ab_Logout"
+        android:orderInCategory="80"
+        android:showAsAction="never"
+        android:title="Log Out"
+        app:showAsAction="never"
+        />
+     
+ <item
+        android:id="@+id/ab_tutorial"
+        android:orderInCategory="80"
+        android:showAsAction="never"
+        android:title="Tutorial"
+        app:showAsAction="never"
+        /> 
+     
+     <item
+        android:id="@+id/ab_about"
+        android:orderInCategory="80"
+        android:showAsAction="never"
+        android:title="About"
+        app:showAsAction="never"
+        /> 
+</menu>

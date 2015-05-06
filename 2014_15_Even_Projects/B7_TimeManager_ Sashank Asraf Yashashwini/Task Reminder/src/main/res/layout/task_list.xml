@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Select a Task!"
+       android:id="@+id/texttask"
+        />
+
+    <RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+  android:layout_below="@+id/texttask"
+    android:id="@+id/myRadioGroup"
+
+    android:checkedButton="@+id/sound" >
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pills"
+        android:textSize="20dp"
+        android:id="@+id/radioButton"
+
+        />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meeting"
+        android:textSize="20dp"
+        android:id="@+id/radioButton1"
+
+        />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Homework"
+        android:textSize="20dp"
+        android:id="@+id/radioButton2"
+
+        />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Workout"
+        android:textSize="20dp"
+        android:id="@+id/radioButton3"
+
+        />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Birthday"
+        android:textSize="20dp"
+        android:id="@+id/radioButton4"
+
+        />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Others"
+        android:textSize="20dp"
+        android:id="@+id/radioButton5"
+
+        android:checked="false" />
+   </RadioGroup>
+
+
+</RelativeLayout>
+
+

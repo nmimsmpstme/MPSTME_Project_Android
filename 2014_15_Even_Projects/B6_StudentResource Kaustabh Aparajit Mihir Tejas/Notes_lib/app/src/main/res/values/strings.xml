@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Notes_lib</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="underline"><u>NOTES LIBRARY</u></string>
+    <string name="title_activity_mechanical1">Mechanical1</string>
+    <string name="mech"><u>Welcome!</u></string>
+    <string name="comp"><u>Welcome!</u></string>
+    <string name="title_activity_it">IT</string>
+    <string name="it"><u>Welcome!</u></string>
+    <string name="title_activity_civil">Civil</string>
+    <string name="civil"><u>Welcome!</u></string>
+
+</resources>

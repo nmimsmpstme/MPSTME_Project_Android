@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/main" 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:gravity="center_horizontal"
+		android:padding="10dp" 
+		android:orientation="vertical"
+		android:background="@android:color/black"
+		android:weightSum="2">
+
+	<TextView 
+		android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:fadingEdge="horizontal"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:freezesText="true"
+        android:gravity="center"
+        android:padding="5dip"
+        android:shadowColor="#FF0000"
+        android:shadowDx="4"
+        android:shadowDy="4"
+        android:shadowRadius="4"
+        android:textColor="@android:color/white"
+        android:textSize="45sp"
+        android:textStyle="bold"
+		android:text="Are you drunk?"
+		 />
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="0dp" 
+		android:gravity="center_horizontal"
+		android:layout_weight="1"
+		android:padding="10dp" 
+		android:orientation="horizontal"
+		android:background="@android:color/black"
+		android:weightSum="2"
+	>
+	
+		<Button
+	        android:id="@+id/yes_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:onClick="onClick"
+	        android:layout_weight="1"
+	        android:background="@color/search_button_blue"
+	        android:layout_margin="10dp"
+	        android:gravity="center"
+	        android:layout_gravity="center_horizontal"
+	        android:paddingLeft="40dp"
+	        android:paddingRight="40dp"
+	        android:text="Yes"
+	        android:textColor="@android:color/white" />
+	        
+	     <Button
+	        android:id="@+id/no_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:onClick="onClick"
+	        android:layout_weight="1"
+	        android:background="@color/search_button_blue"
+	        android:layout_margin="10dp"
+	        android:gravity="center"
+	        android:layout_gravity="center_horizontal"
+	        android:paddingLeft="40dp"
+	        android:paddingRight="40dp"
+	        android:text="No"
+	        android:textColor="@android:color/white" />
+	</LinearLayout>
+
+</LinearLayout>

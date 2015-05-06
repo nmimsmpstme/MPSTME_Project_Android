@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff353535">
+    <TextView
+        android:text="@string/comp"
+        android:id="@+id/tv1"
+        android:layout_marginTop="20dp"
+        android:textSize="50dp"
+        android:paddingLeft="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Base.TextAppearance.AppCompat.Headline"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button1"
+        android:background="#FF59FF4D"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Faculty" />
+
+    <Button
+        android:id="@+id/button2"
+        android:background="#FF59FF4D"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Y" />
+
+    <Button
+        android:id="@+id/button3"
+        android:background="#FF59FF4D"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Year " />
+
+    <Button
+        android:id="@+id/button4"
+        android:background="#FF59FF4D"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Year " />
+
+    <Button
+        android:id="@+id/button5"
+        android:background="#FF59FF4D"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Year " />
+
+</LinearLayout>

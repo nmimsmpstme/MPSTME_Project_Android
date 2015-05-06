@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id = "@+id/wrapper_top"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp" 
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    >
+
+    <TextView
+            android:id="@+id/replv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:paddingBottom="0dp"
+            android:textSize="12sp"
+            android:text="10/2/2015"
+            android:layout_alignParentRight="true"
+            />
+    
+        <TextView
+            android:layout_above="@+id/replv_amt"
+            android:id="@+id/rep_To"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="2dip"
+            android:paddingBottom="2dip"
+            android:textSize="18sp"
+            android:text="Me -> Paridhi Goyal"
+             />
+        
+   
+<TextView
+    android:id="@+id/replv_amt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="1dip"
+    android:text="500Rs"
+    android:textSize="13sp"
+    android:layout_alignParentBottom="true"
+     />
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.akul.billsplit.Reglogin$PlaceholderFragment" >
+    
+<TextView
+        android:id="@+id/textView11saa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Current Password" 
+        android:textSize="20sp"
+        />
+    
+    <EditText
+        android:id="@+id/ed_chpassep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/textView11saa"
+        android:ems="10" />
+    
+<TextView
+        android:id="@+id/textView11saaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter New Password" 
+		android:layout_below="@+id/ed_chpassep"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        />
+    
+    <EditText
+        android:id="@+id/ed_chpassnwp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/textView11saaa"
+        android:ems="10" />
+    
+    <TextView
+        android:id="@+id/textView11saaaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify Password" 
+		android:layout_below="@+id/ed_chpassnwp"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        />
+    
+    <EditText
+        android:id="@+id/ed_chpassvp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/textView11saaaa"
+        android:ems="10" />
+    
+    </RelativeLayout>

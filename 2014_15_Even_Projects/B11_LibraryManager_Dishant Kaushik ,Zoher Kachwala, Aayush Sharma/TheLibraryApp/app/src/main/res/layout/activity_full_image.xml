@@ -1,0 +1,72 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+
+    android:background="@drawable/back"
+    tools:context="com.example.dishantkaushik.thelibraryapp.FullImageActivity">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:backgroundTintMode="src_atop"
+        android:background="#c8ffffff">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/full_image_view"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book Name "
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/full_image_view"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/bname"
+            android:textSize="30sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bname"
+            android:layout_toLeftOf="@+id/full_image_view"
+            android:text="Author"
+            android:layout_alignParentRight="true"
+            android:id="@+id/bauth"
+            android:textSize="10sp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="Description"
+            android:id="@+id/bdesc"
+            android:padding="10dp"
+            android:layout_below="@+id/full_image_view" />
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:id="@+id/brate"
+            android:layout_above="@+id/bavail"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Available"
+            android:id="@+id/bavail"
+            android:onClick="somewhere"
+            android:textSize="30sp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+
+</RelativeLayout>

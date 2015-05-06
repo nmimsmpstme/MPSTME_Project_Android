@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:orientation="vertical"
+        android:paddingLeft="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:fadingEdge="horizontal"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:freezesText="true"
+            android:gravity="center"
+            android:shadowColor="#FF0000"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:shadowRadius="4"
+            android:text="MCQ test"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="50dp" >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/color_image" />
+
+        </LinearLayout>
+		
+        <RadioGroup
+            android:id="@+id/rGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/opt0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text=" a. More green less blue"
+                android:textColor="@android:color/white" />
+
+            <RadioButton
+                android:id="@+id/opt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" b. Boundary blue center green"
+                android:textColor="@android:color/white" />
+
+            <RadioButton
+                android:id="@+id/opt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" c. Both a and b"
+                android:textColor="@android:color/white" />
+            <RadioButton
+                android:id="@+id/opt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" d. Blue boundary"
+                android:textColor="@android:color/white" />
+
+        </RadioGroup>
+        
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:background="@color/search_button_blue"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="Done"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</ScrollView>

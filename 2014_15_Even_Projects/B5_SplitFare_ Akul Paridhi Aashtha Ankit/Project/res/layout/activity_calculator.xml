@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.akul.splitfare.Calculator" >
+
+    <RelativeLayout
+       android:paddingLeft="@dimen/activity_horizontal_margin"
+       android:paddingRight="@dimen/activity_horizontal_margin"
+	   android:layout_width="match_parent"
+	   android:layout_height="match_parent"
+	>
+        
+    <EditText
+        android:id="@+id/calc_amt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="Enter BIll Amount"
+         />
+
+    <EditText
+        android:layout_below="@+id/calc_amt"
+        android:id="@+id/calc_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Enter Number Of People"
+         >
+
+    </EditText>
+ </RelativeLayout>
+   
+   
+    <Button
+        android:id="@+id/calc_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Calculate" 
+        style="?android:attr/buttonBarButtonStyle"
+        />
+
+</RelativeLayout>

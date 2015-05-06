@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.akul.splitfare"
+    android:versionCode="1"
+    android:versionName="1.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="com.akul.splitfare.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.akul.splitfare.permission.C2D_MESSAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:allowClearUserData="false"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="SplitFa₹e"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <service android:name=".GCMIntentService" />
+
+        <receiver
+            android:name="com.google.android.gcm.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.akul.splitfare" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".Reglogin"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Groups"
+            android:label="@string/title_activity_groups" >
+        </activity>
+        <activity
+            android:name=".Transactions"
+            android:label="@string/title_activity_transactions" >
+        </activity>
+        <activity
+            android:name=".GRPinfo"
+            android:label="@string/title_activity_grpinfo" >
+        </activity>
+        <activity
+            android:name=".Calculator"
+            android:label="@string/title_activity_calculator" >
+        </activity>
+        <activity
+            android:name=".Preferences"
+            android:label="@string/title_activity_preferences" >
+        </activity>
+        <activity
+            android:name=".RepHistory"
+            android:label="@string/title_activity_rep_history" >
+        </activity>
+        <activity
+            android:name=".Repahistory"
+            android:label="@string/title_activity_repahistory" >
+        </activity>
+        <activity
+            android:name=".Profile"
+            android:label="@string/title_activity_profile" >
+        </activity>
+        <activity
+            android:name=".Tutorial"
+            android:label="@string/title_activity_tutorial" >
+        </activity>
+    </application>
+
+</manifest>

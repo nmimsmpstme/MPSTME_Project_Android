@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+ <com.gc.materialdesign.views.ProgressBarCircularIndeterminate
+                android:id="@+id/progressBarCircularIndetermininate"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:paddingLeft="10dp"
+                android:background="#FFFFFF" 
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                />
+
+ <TextView
+      android:layout_marginTop="3dp"
+      android:layout_marginBottom="3dp"
+      android:layout_marginLeft="22dp"
+     android:layout_width="wrap_content"
+     android:layout_height="55dp"
+     android:layout_toRightOf="@+id/progressBarCircularIndetermininate"
+     android:gravity="center"
+     android:text="Registering ..."
+     android:textAppearance="?android:attr/textAppearanceSmall"
+      />
+
+  </RelativeLayout>
+
+<!--  android:layout_centerInParent="true"
+                 -->

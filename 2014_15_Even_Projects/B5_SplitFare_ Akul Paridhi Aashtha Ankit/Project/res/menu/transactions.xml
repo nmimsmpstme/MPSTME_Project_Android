@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.akul.splitfare.Groups" 
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/summary_trans"
+        android:orderInCategory="80"
+        android:showAsAction="always"
+        android:title="Summary"
+        android:text ="Summary"
+        app:showAsAction="always"
+        android:icon="@+drawable/summary"
+        />
+    <item
+        android:id="@+id/info"
+        android:orderInCategory="80"
+        android:showAsAction="always"
+        android:title="Group Information"
+        android:text ="Info"
+        app:showAsAction="always"
+        android:icon="@+drawable/info"
+        />
+    <item
+        android:id="@+id/rep_history"
+        android:orderInCategory="80"
+        android:showAsAction="never"
+        android:title="Payments Made"
+        android:text ="Payments Made"
+        app:showAsAction="never"
+        />
+      <item
+        android:id="@+id/repa_history"
+        android:orderInCategory="80"
+        android:showAsAction="never"
+        android:title="Payments Accepted"
+        android:text ="Payments Accepted"
+        app:showAsAction="never"
+        />
+</menu>

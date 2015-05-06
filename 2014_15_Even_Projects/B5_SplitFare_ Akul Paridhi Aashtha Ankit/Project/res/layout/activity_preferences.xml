@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.akul.splitfare.Preferences"
+    android:layout_marginTop="20dp"
+     >
+
+    <EditText
+        android:id="@+id/prefs_edcurr"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:ems="10" 
+        android:layout_toRightOf="@+id/prefs_tv1"
+        >
+    </EditText>
+
+    <TextView
+        android:id="@+id/prefs_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/prefs_edcurr"
+        android:layout_alignBottom="@+id/prefs_edcurr"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:textSize="15sp"
+        android:text="My Currency : " />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/prefs_edcurr"
+        android:layout_below="@+id/prefs_edcurr"
+        android:layout_marginTop="40dp" 
+        android:entries="@+array/themelist"
+        />
+
+    <TextView
+      android:id="@+id/prefs_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/spinner1"
+        android:layout_alignBottom="@+id/spinner1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:textSize="15sp"
+        android:text="Accent Color : " />
+
+    <Switch
+        android:id="@+id/sw1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner1"
+        android:layout_marginTop="40dp" 
+        android:layout_alignRight="@+id/prefs_edcurr"
+        >
+    </Switch>
+
+<TextView
+      android:id="@+id/prefs_tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/sw1"
+        android:layout_alignBottom="@+id/sw1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:textSize="15sp"
+        android:text="Dark Theme " />
+</RelativeLayout>
